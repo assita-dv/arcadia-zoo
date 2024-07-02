@@ -29,4 +29,7 @@
      
 </header>
 </body>
+<footer>
+    <?php require "pages/footer.html" ?>
+</footer>
 </html>
