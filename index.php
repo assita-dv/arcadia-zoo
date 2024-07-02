@@ -15,6 +15,7 @@
     require "pages/header.html";
     ?>
 
+
 <header>
     <!-- debut home section -->
      <section class="home" id="Accueil">
@@ -29,7 +30,8 @@
      
 </header>
 </body>
-<footer>
-    <?php require "pages/footer.html" ?>
-</footer>
+<?php
+    require "pages/footer.html";
+    ?>
+
 </html>
