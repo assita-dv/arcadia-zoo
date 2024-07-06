@@ -19,7 +19,7 @@ body{
 }
 .navbar-brand {
     font-weight: 500;
-    color:#000;
+    color:#fff;
     font-size: 24px;
     transition: 0.3s color;
 }
@@ -56,6 +56,11 @@ body{
     color: #ff9408;
 }
 @media (min-width: 991px){
+.nav-link{
+     color: #fff;
+  }
+}
+@media (min-width: 991px){
   .nav-link::before{
     content: "";
     position: absolute;
@@ -65,40 +70,58 @@ body{
     width: 0;
     height: 2px;
     background-color: #ff9408;
+
+    visibility: hidden;
     transition: 0.3s ease-in-out;
+   
   }
+  
 
   .nav-link:hover::before , .nav-link.active::before{
     width: 100%;
     visibility: visible;
 
   }
-}
+}@media (min-width: 375px){
+    .navbar{
+      content: "";
+      position: absolute;
+      bottom: 0;
+     
+    }
+  }
 /* end section navbar*/
 
 /* home page*/
-.home{
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    background: url(..//images/accueill.jpg) no-repeat ;
-    background-size: cover;
-    background-position: top;
-    width: 100%;
+.hero-about{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../images/accueill.jpg);
+        background-size: cover;
+        filter: brightness(0.7);
+       
+    }
 
+    *{
+    /*Positionner les éléments devant le ::before*/
+        position:relative;
+    }
+
+    .hero-about-content{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-.home .content{
-    max-width: 60rem;
-
-}
-
-.home .content h3{
-    color: #fff;
-    font-size: 4rem;
-    line-height: 1.4;
-    font-weight: 400;
-}
 /* end home page*/
 
 /* start section about*/
@@ -129,7 +152,7 @@ height: 100%;
     width: 200px;
     height: 36px;
     background: transparent;
-    border: 2px solid #EAE225;
+    border: 2px solid #ff9408;
     color: #fff;
     border-radius: 15px;
     font-weight: bold;
@@ -137,7 +160,7 @@ height: 100%;
     cursor: pointer;
 }
 #about-btn:hover{
-    background-color: #EAE225;
+    background-color: #ff9408;
     color: #fff;
 }
 @media screen and (max-width: 982px){
@@ -145,7 +168,7 @@ height: 100%;
         font-size: 8px;
     }
 }
-@media screen and (max-width: 766pxpx){
+@media screen and (max-width: 766px){
     #about .p{
         font-size: 15px;
     }
@@ -159,7 +182,7 @@ height: 100%;
 .animaux .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem,1em));
-    gap: 0;
+    gap: 1px ;
     padding-left: 130px;
     padding-block-end: 5em;
     writing-mode: horizontal-tb;
@@ -218,15 +241,206 @@ height: 100%;
 }
 /* end section animaux*/
 
-/* start section footer*/
-.footer{
+/* start section services*/
+.service .container{
+    min-height: 100vh;
+    width: 100%;
+}
+.sevice-zoo{
+    padding: 5% 8%;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service h5{
+    color: #fff;
+    font-size: 3rem;
+
+
+}
+.service .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 80px;
+}
+.service .card{
+    height: 350px;
+    width: 370px;
     background-color: #265034;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 3%;
+    border-radius: 8px;
+    transition: .6s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.service .card:hover{
+    
+    transform:rotateY(-8px);
+    background-color: transparent;
+    border-color: #ff9408;
+  
+}
+.service .card:hover::after{
+    width: 225%;
+    top: -100%;
+}
+.service .card p{
+    text-align: center;
+    width: 100%;
+    margin: 12px 0;
+    color: #fff;
+}
+.service .card i{
+    color: #ff9408;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+.service .card h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
-.footercontainer{
+@media screen and (max-width: 766px){
+
+    .service .card{
+        grid-template-columns: repeat(2,fr);
+    }
+}
+/* end section services*/
+
+/* start section review */
+.reviews {
+    transition: all 0.5s ease;
+    background-color: #265034;
+    padding: 100px 12.5% 100px;
+    display: flex;
+    gap: calc(10px + 2%);
+   grid-template-columns: repeat(auto-fit, minmax ( 20px, auto));
+}
+.avi{
+   font-size: 33px;
+   color: #fff;
+   text-align: center;
+}
+.review-card{
+    display: flex;
+    margin-top: 60px;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+   
+}
+.review-card .row{
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ff9408;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    padding: 10px;
+}
+.rating i{
+    color: #ff9408;
+    font-size: 13px;
+}
+.rating img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.reviews p{
+    color: #fff;
+    font-size: 20px;
+}
+/* end section review */
+
+/* start section contact */
+.contact-form {
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.heading-contact{
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 120px;
+    text-align: center;
+    padding-top: 50px;
+}
+.form-origin{
+    width: 100%;
+    height: 100%;
+    background-color: #265034;
+    padding: 50px 50px;
+    border-radius: 8px;
+    right: 30px;
+    margin-left: 20em;
+}
+
+/* end section contact*/
+
+/* start pages junle */
+
+/* start jungle-about */
+.jungle-about{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../images/lion-28.jpg);
+        background-size: cover;
+        filter: brightness(0.7);
+    }
+
+    *{
+        /*Positionner les éléments devant le ::before*/
+        position:relative;
+    }
+
+    .jungle-about-content{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+/* start section footer*/
+.footer{
+    margin-top: 170px;
+    background-color: #265034;
+    /*padding: 0;
+    margin: 0;*/
+    box-sizing: border-box;
+   /* padding-top: 120px;*/
+}
+
+.footer .container {
     width: 100%;
     padding: 70px 30px 20px;
 }
@@ -248,6 +462,7 @@ height: 100%;
   font-size: 2em;
   opacity: 0.9;
 }
+
 .footernav{
     margin: 30px 0;
 }
