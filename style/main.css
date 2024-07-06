@@ -11,7 +11,7 @@ body{
 /* start section navbar*/
 
 .navbar{
-    background-color: #fff;
+    background-color: #265034;
     height: 80px;
     margin: 20px;
     border-radius: 16px;
@@ -19,7 +19,7 @@ body{
 }
 .navbar-brand {
     font-weight: 500;
-    color:#265034 ;
+    color:#000;
     font-size: 24px;
     transition: 0.3s color;
 }
@@ -34,7 +34,7 @@ body{
 }
 
 .login-button:hover {
-   background-color:#EAE225 ;
+   background-color:#ff9408 ;
 }
 
 .navbar-toggler{
@@ -48,12 +48,12 @@ body{
 }
 
 .nav-link{
-    color: #666777;
+    color: #000;
     font-weight: 500;
     position: relative;
 }
 .nav-link:hover, .nav-link.active{
-    color: #000;
+    color: #ff9408;
 }
 @media (min-width: 991px){
   .nav-link::before{
@@ -64,7 +64,7 @@ body{
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: #EAE225;
+    background-color: #ff9408;
     transition: 0.3s ease-in-out;
   }
 
@@ -154,6 +154,69 @@ height: 100%;
     }
 }
 /* end section about*/
+
+/* start section animaux*/
+.animaux .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,1em));
+    gap: 0;
+    padding-left: 130px;
+    padding-block-end: 5em;
+    writing-mode: horizontal-tb;
+}
+.animaux .box-container .box{
+   height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.animaux .box-container .box img{
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.animaux .box-container .box:hover img{
+    transform: scale(1.1);
+}
+.animaux .box-container .box .content{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    padding: 20px;
+    z-index:1 ;
+    transition: 0.5s ease;
+
+}
+.animaux .box-container .box:hover::after{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+.animaux .box-container .box .content h3{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff; 
+}
+.animaux .box-container .box:is(:hover, :focus) .content{
+    transform: translateY(-20px);
+}
+.animaux .box-container .box .content .btn{
+    border-radius: 20px;
+    background-color: #ff9408;
+    align-content: center;
+}
+.animaux .heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+/* end section animaux*/
 
 /* start section footer*/
 .footer{

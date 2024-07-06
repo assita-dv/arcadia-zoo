@@ -51,15 +51,49 @@
           <button id="about-btn">voir les animaux</button>
         <div>
     </div>
-
 </div>
+</div>
+</div>
+</div>
+</section>
+<!-- end about-->
 
-
+ <!-- start animaux -->
+<section class="animaux" id="animaux">
+    <h2 class="heading">Animaux</h2>
+    <div class="box-container">
+        <div class="box">
+            <img src="/images/proquet.jpg" alt="">
+            <div class="content">
+               <h3>Peroquet</h3>
+               <a href="#" class="btn btn-success me-md-2">plus en datail</a>
+            </div>
         </div>
-</div>
+        <div class="box">
+            <img src="/images/autriche.jpg" alt="">
+            <div class="content">
+               <h3>Autriche</h3>
+               <a href="#" class="btn btn-success me-md-2 text-center ">plus en datail</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/lama.jpg" alt="">
+            <div class="content">
+               <h3>Lama</h3>
+               <a href="#" class="btn btn-success me-md-2">plus en datail</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/lemurans.jpg" alt="">
+            <div class="content">
+               <h3><Leg>Lemurans</Leg></h3>
+               <a href="#" >
+               <button type="button" class="btn btn-success me-md-2 ">plus en datail</button>
+            </a>
+        </div>
+        </div>
+    
 
-
-</div>
 </section>
 <?php
     require "pages/footer.html";
