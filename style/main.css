@@ -407,7 +407,7 @@ height: 100%;
         left:0;
         width:100%;
         height:100%;
-        background-image: url(../images/lion-28.jpg);
+        background-image: url(../images/jungle/koalla.jpg);
         background-size: cover;
         filter: brightness(0.7);
     }
@@ -418,16 +418,87 @@ height: 100%;
     }
 
     .jungle-about-content{
-        height: 600px;
+        height: 650px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 }
-
-
-
+/* end section home jungle */
+#about-j{
+    width: 100%;
+    height: 100%;
+       
+    }
+    #about-j .container{
+        padding-top: 70px;
+    }
+    .heading-jungle{
+        text-align: center;
+        margin-bottom: 50px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    #about-j .card{
+        border-radius: 10px;
+    }
+    #about-j .card img{
+        border-radius: 15px;
+    }
+    
+    @media screen and (max-width: 982px){
+        #about .p{
+            font-size: 8px;
+        }
+    }
+    @media screen and (max-width: 766px){
+        #about .p{
+            font-size: 10px;
+        }
+        #about{
+            height: 120vh;
+        }
+    }
+    /* end section about*/
+    /* section animaux jungle */
+    #blogs{
+        width: 100%;
+        padding-left: 60px;
+        column-gap: 0;
+        
+    }
+    #blogs .heading-2{
+        text-align: center;
+        font-size: 30px;
+        color: #000;
+        font-weight: bold;
+    }
+    #blogs .container{
+     margin-top: 80px;
+     padding-top: 100px;
+     
+    }
+#blogs h5{
+    color: #fff;
+    text-align: center;
+}
+.blogs-btn{
+    width: 250px;
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #265034;
+    border: none;
+    /*justify-content: center;
+    align-items: center;*/
+}
+.card-body{
+    background-color: #265034;
+}
 
 
 /* start section footer*/
