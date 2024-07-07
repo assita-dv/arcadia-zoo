@@ -92,6 +92,7 @@
         </div>
 </section>
 <!-- end animaux -->
+ <!-- section services-->
  <section class="service" id="service">
     <div class="container">
         <div class="service-zoo">
@@ -118,9 +119,65 @@
         </div>
     </div>
  </section>
- <!-- end service -->
-  <!-- start review -->
-   <h3 class="avi">Avis De Nos Visiteur</h3>
+ <!-- end section service -->
+
+ <!-- section services-->
+ <section class="review" id="review">
+    <div class="container">
+        <div class="review-zoo">
+            <div class="reviews">
+                <h5>Avis De Nos Visiteur</h5>
+                
+                <div class="cards">
+                    <div class="card">
+                        <img src="marais/avie1.jpg" alt="">
+                        <div class= "starta" style=" display: flex;">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Un zoo très beau, bien entretenu.
+                          On voit bien que les animaux y sont bien.
+                          Les soignants très gentils et à l écoute quand les enfants posent des questions.
+                          Vraiment on a passé une joli journée.
+                          Zoo assez grand mais pas trop quand on a des petits enfants.
+                          Tout le monde était ravi. !</p>
+                        
+                        </div>
+                    <div class="card">
+                    <img src="marais/avie3.jpg" alt="">
+                    <div class= "starta" style=" display: flex;">
+                    <i class="fa-solid fa-star"></i> 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                   <p>un zoo très propre et très ombragé. Un personnel gentil et accueillant De Très beaux animaux. De grands espaces. Un beau moment passé au zoo arcadia même sous un peu de pluie. .</p> 
+                </div>
+                    <div class="card">
+                    <img src="marais/avis4.jpg" alt="">
+                    <div class= "starta" style=" display: flex;">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                        <p>Un parc zoologique digne de sa réputation ! Un respect des animaux bien visible, des enclos propres et adaptés à leurs environnements naturels,  des professionnels à l'écoute et polis. les animaux ont été facile à voir car des aménagements sont installés un peu partout autour des enclos.
+                         !</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- end section service -->
+  <!-- start review -
+   <h3 class="avi"></h3>
     <section class="reviews" id="avis">
     
         <div class="review-card">
@@ -164,7 +221,7 @@
 </div>
 </div>
 </div>
-  </section>
+  </section>-->
    <!-- end review -->
 
    <!-- start contact -->

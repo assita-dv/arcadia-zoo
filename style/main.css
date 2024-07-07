@@ -319,50 +319,88 @@ height: 100%;
 /* end section services*/
 
 /* start section review */
-.reviews {
-    transition: all 0.5s ease;
+
+.review {
+    min-height: 100vh;
+    width: 100%;
     background-color: #265034;
-    padding: 100px 12.5% 100px;
-    display: flex;
-    gap: calc(10px + 2%);
-   grid-template-columns: repeat(auto-fit, minmax ( 20px, auto));
+    border-radius: 150px;
 }
-.avi{
-   font-size: 33px;
-   color: #fff;
-   text-align: center;
+.review-zoo{
+    padding: 5% 8%;
 }
-.review-card{
+.reviews{
     display: flex;
-    margin-top: 60px;
-    flex: 2;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-   
 }
-.review-card .row{
+.review h5{
+    color: #fff;
+    font-size: 3rem;
+
+
+}
+.review .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 80px;
+}
+.review .card{
+    height: 350px;
+    width: 370px;
+    background-color: #212D25;
+    padding: 3%;
+    border-radius: 8px;
+    transition: .6s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     position: relative;
     overflow: hidden;
-    border: 2px solid #ff9408;
-    border-radius: 5px;
-    transition: 0.5s ease;
-    cursor: pointer;
-    padding: 10px;
 }
-.rating i{
-    color: #ff9408;
-    font-size: 13px;
+.review .card:hover{
+    
+    transform:rotateY(-8px);
+    background-color: transparent;
+    border-color: #ff9408;
+  
 }
-.rating img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+.review .card:hover::after{
+    width: 225%;
+    top: -100%;
 }
-.reviews p{
+.review .card p{
+    text-align: center;
+    width: 100%;
+    margin: 12px 0;
     color: #fff;
-    font-size: 20px;
+
+    
+
+
 }
+.review img{
+    border-radius: 80%;
+    width: 130px;
+    height: 80px;
+}
+ .review .starta i{
+    display: flex;
+    color: #ff9408;
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width: 766px){
+
+    .review .card{
+        grid-template-columns: repeat(2,fr);
+    }
+}
+
 /* end section review */
+
 
 /* start section contact */
 .contact-form {
