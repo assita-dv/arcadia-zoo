@@ -175,54 +175,7 @@
         </div>
     </div>
  </section>
- <!-- end section service -->
-  <!-- start review -
-   <h3 class="avi"></h3>
-    <section class="reviews" id="avis">
-    
-        <div class="review-card">
-        <div class="row">
-            <div class="rating">
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <p>On y revient pour la 5eme fois. Toujours aussi beau et les nouveautés 
-            superbes. Être pratiquement seule à regarder les pandas, un vrai moment exceptionnel. Parc très propre, ombragé.</p>
-             <img src="marais/avie1.jpg" alt="">
-           </div>
-        </div>
-        </div>
-           <div class="review-card">
-        <div class="row">
-            <div class="rating">
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <p>On y revient pour la 5eme fois. Toujours aussi beau et les nouveautés 
-            superbes. Être pratiquement seule à regarder les pandas, un vrai moment exceptionnel. Parc très propre, ombragé.</p>
-             <img src="marais/avie3.jpg" alt="">
-                </div>
-            </div>
-           </div>
-           <div class="review-card">
-        <div class="row">
-            <div class="rating">
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <i class="fa-solid fa-star"></i>
-           <p>On y revient pour la 5eme fois. Toujours aussi beau et les nouveautés 
-            superbes. Être pratiquement seule à regarder les pandas, un vrai moment exceptionnel. Parc très propre, ombragé.</p>
-             <img src="marais/avis4.jpg" alt="">
-                </div>
-           </div>
-</div>
-</div>
-</div>
-  </section>-->
-   <!-- end review -->
+   <!-- end section review -->
 
    <!-- start contact -->
 <section class="cantact-form">

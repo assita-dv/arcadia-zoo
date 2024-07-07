@@ -18,9 +18,9 @@
     require "pages/header.html";
     ?>
      <!-- debut home section -->
-     <section class="home-jungle" id="jungle">
-     <div class="jungle-about text-center text-white">
-    <div class="jungle-about-content">
+     <section class="home-marais" id="marais">
+     <div class="marais-about text-center text-white">
+    <div class="marais-about-content">
         <p>Habitat Jungle</p>
         <h1>Zoo Arcadia</h1>
     </div>
@@ -29,13 +29,13 @@
 <!-- end section home-->
 
 <!-- start section about jungle-->
-     <section id="about-j">
+     <section id="about-m">
     <div class="container">
-        <div class="heading-jungle">
+        <div class="heading-marais">
             <div class="row">
                 <div class="col-md-6">
 <div class="card">
-    <img src="images/jungle/hipopotam.jpg" alt="">
+    <img src="marais/chouette effraie.jpg" alt="">
             </div>
         </div>
         <div class="col-md-6">
@@ -53,13 +53,13 @@
 
 <!-- section animaux jungle-->
     <section id="blogs">
-    <div class="heaging-2">
+    <div class="heaging-3">
      <div class="container">
-     <div class="animaux-j"> <h2> Les Animaux Du Jungle</h2></div>
+    <div class="animaux-m"> <h2> Les Animaux Du Marais</h2></div>
      <div class="row">
     <div class="col ">
     <div class="card h-100" style="width: 18rem; ">
-      <img src="/images/jungle/python.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/bec-en-sabot.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="#" ><button type="button" class="blogs-btn btn-lg">Python</button></a>
       </div>
@@ -67,25 +67,25 @@
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/nasique.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/couleuvre a collier.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Nasique</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Couleuvre a collier</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/jungle/poco.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/buffle d'afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Perroquet</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Buffle d'afrique</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/komodo-dragon.jpg" style="height :250px;"class="card-img-top" alt="...">
+      <img src="marais/crocodile.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Dragon-komodo</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Crocodile</button></a>
       </div>
     </div>
   </div>
@@ -95,33 +95,33 @@
      <div class="row" style="margin-top: 65px;">
      <div class="col ">
     <div class="card h-100" style="width: 18rem; ">
-      <img src="/images/jungle/mandrill.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/cerf de virginie.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Mandrill</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Cerf de virginie</button></a>
       </div>
   </div>
      </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/opaki.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/faucon pèlerin.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Opaki</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Faucon pèlerin</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/jungle/crodille.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/raton-laveur.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Crocrodille</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Raton-laveur</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/orang-outan.jpg" style="height :250px;"class="card-img-top" alt="...">
+      <img src="marais/flamant rose.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">orang-outan</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Flamant rose</button></a>
       </div>
     </div>
   </div>
@@ -130,33 +130,33 @@
 <div class="row" style="margin-top: 65px;">
      <div class="col ">
     <div class="card h-100" style="width: 18rem; ">
-      <img src="/images/jungle/tigre1.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/grue royale.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Tigre</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Grue Royale</button></a>
       </div>
   </div>
      </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/hipopotam.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/marabout-d'afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">hipopotam</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Marabout-d'afrique</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/jungle/koalla.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/chouette effraie1.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Perroquet</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Chouette</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/lemurs.jpg" style="height :250px;"class="card-img-top" alt="...">
+      <img src="marais/rainette de white.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Lemurien</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Rainette de White</button></a>
       </div>
     </div>
   </div>
@@ -165,33 +165,33 @@
      <div class="row" style="margin-top: 65px;">
      <div class="col ">
     <div class="card h-100" style="width: 18rem; ">
-      <img src="/images/jungle/kankourou.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/aligator.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Kangourou</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Aligator</button></a>
       </div>
   </div>
      </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/singes.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="Marais/salamander-maculée.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">singes</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">salamander-maculée</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/jungle/gorille.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="/images/marais/loutre1.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">gorille</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Loutre</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/tigre-blanc.jpg" style="height :250px;"class="card-img-top" alt="...">
+      <img src="/images/marais/la belette.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Dragon-komodo</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">la belette</button></a>
       </div>
     </div>
   </div>
