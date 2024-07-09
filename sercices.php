@@ -92,18 +92,16 @@ Service chaud entre 11h45 et 15h. Accès privilégié pour les personnes à mobi
 <!-- end about-->
  </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- debut home section fin -->
+<section class="home-service-f" id="servicef">
+     <div class="service-aboutf text-center text-white">
+    <div class="service-aboutf-content">
+        <h1>Zoo Arcadia</h1>
+        <button class="service-btn">voir les animaux</button>
+    </div>
+</div>
+     </section>
+<!-- end section home-->
 <script src="/script.javascript/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
