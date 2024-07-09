@@ -55,7 +55,8 @@
     <section id="blogs">
     <div class="heaging-3">
      <div class="container">
-    <div class="animaux-m"> <h2> Les Animaux Du Marais</h2></div>
+    <div class="animaux-m"> 
+        <h2> Les Animaux Du Marais</h2></div>
      <div class="row">
     <div class="col ">
     <div class="card h-100" style="width: 18rem; ">
@@ -199,6 +200,7 @@
  </section>
     <!--end home section -->
 </header>
+
 <script src="/script.javascript/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

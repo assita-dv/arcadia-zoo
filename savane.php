@@ -49,6 +49,7 @@
 </div>
 </div>
 </section>
+
 <!-- end about-->
 
 <!-- section animaux jungle-->

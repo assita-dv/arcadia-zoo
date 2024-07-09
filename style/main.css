@@ -766,6 +766,176 @@ height: 100%;
 
  /* end page marais */
 
+/* start savane-about */
+.service-about{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../savane/élephant\ d.jpg);
+        background-size: cover;
+        filter: brightness(0.7);
+    }
+
+    *{
+        /*Positionner les éléments devant le ::before*/
+        position:relative;
+    }
+
+    .service-about-content{
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* end section home services */
+
+/* section restaurant */
+
+#restau{
+    width: 100%;
+    height: 100%;
+       
+    }
+    #restau .container{
+        padding-top: 70px;
+    }
+    .heading-resto{
+        text-align: center;
+        margin-bottom: 50px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    #restau .card{
+        border-radius: 10px;
+    }
+    #restau .card img{
+        border-radius: 15px;
+    }
+    
+    @media screen and (max-width: 982px){
+        #restau .p{
+            font-size: 8px;
+        }
+    }
+    @media screen and (max-width: 766px){
+        #restau .p{
+            font-size: 10px;
+        }
+        #restau{
+            height: 120vh;
+        }
+    }
+    /* end section restau*/
+
+    /* start section train */
+    #train{
+        width: 100%;
+        height: 100%;
+        background-color: #265034;
+           
+        }
+        #train .container{
+            padding-top: 70px;
+        }
+        .heading-train .card{
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #265034;
+        }
+        
+        #train .card img{
+            border-radius: 10px;
+        }
+        #train img{
+             border-radius: 15px;
+        }
+
+         #train p{
+          color: #fff;
+          /*margin-top: 80px;*/
+          font-size: 20px;
+          
+         }
+         .heading-train h2{
+            color: #fff;
+            text-align: center;
+            
+         }
+        @media screen and (max-width: 982px){
+            #train .p{
+                font-size: 8px;
+               
+            }
+        }
+        @media screen and (max-width: 766px){
+            #train .p{
+                font-size: 10px;
+            }
+            #train{
+                height: 120vh;
+            }
+        }
+/* and section train */
+
+/* section guide gratuit */
+
+#guide{
+    width: 100%;
+    height: 100%;
+    background-color: #212D25;
+       
+    }
+    #guide .container{
+        padding-top: 70px;
+    }
+    .heading-guide{
+        text-align: center;
+        margin-bottom: 50px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    #guide .card{
+        border-radius: 10px;
+    }
+    #guide .card img{
+        border-radius: 15px;
+    }
+    .heading-guide h3{
+        color: #fff;
+        text-align: center;
+        
+     }
+     #guide p{
+        font-size: 16px;
+     }
+    @media screen and (max-width: 982px){
+        #guide .p{
+            font-size: 8px;
+           
+        }
+    }
+    @media screen and (max-width: 766px){
+        #guide .p{
+            font-size: 10px;
+        }
+        #guide{
+            height: 120vh;
+        }
+    }
+    /* end section guide gratuit*/
 
 /* start section footer*/
 .footer{
