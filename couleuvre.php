@@ -18,9 +18,9 @@
     ?>
  <!-- debut home-hiner section -->
  <section class="home-description" id="description">
-     <div class="description-about text-center text-white">
+     <div class="description-about-couleuvre text-center text-white">
     <div class="description-about-content">
-        <h1>ALLIGATOR D’AMÉRIQUE</h1>
+        <h1>COULEUVRE À COLLIER</h1>
     </div>
 </div>
      </section>
@@ -29,13 +29,13 @@
     <div class="container" style="max-width: 1200px;" >
     <div class="row details fram-space-before-medium" style="width: 100%;">
         <div class="decrire">
-        <h3>ALLIGATOR D’AMÉRIQUE</h3>
-        <p>L’alligator d’Amérique (Alligator mississippiensis), aussi appelé simplement alligator <br>ou crocodile au Canada, est un reptile de la famille des Alligatoridés. <br> On le trouve dans les cours d’eau et les zones marécageuses en Amérique du Nord. <br> Carnivore, il se nourrit de toute sorte d’animaux.</p>
+        <h3>COULEUVRE À COLLIER</h3>
+        <p> La couleuvre à collier (Natrix natrix) est un serpent aglyphe (non venimeux) <br> de taille moyenne de la famille des Natricidés. On la trouve dans les zones boisées tempérées, généralement proche de l’eau, <br> dans certains pays Eurasiatiques et Africains (nord). Carnivore, elle se nourrit de divers animaux, principalement aquatiques. </p>
     </div>
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/marais/aligator.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/marais/couleuvre a collier.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
@@ -46,29 +46,28 @@
                     <li><i class="fa-solid fa-magnifying-glass" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Nourriture et proies</h6>
-                        <p class="value">A l’âge adulte, l’alligator d’Amérique se nourrit de tortues, de poissons, de petits mammifères, d’autres crocodiliens plus petits (notamment des jeunes alligators). </p>
+                        <p class="value">La couleuvre à collier se nourrit principalement de tout type d’amphibiens, des grenouilles, des crapauds, des tritons et plus rarement des salamandres.
+                             Elle chasse également des petits mammifères (mulots, rats), des poissons, parfois quelques reptiles (vipère aspic) et des invertébrés (fourmis, vers de terre). Les petits se nourrissent de têtards, de petits poissons et d’invertébrés.</p>
                       </li>
                     
                     <li><i class="fa-solid fa-earth-africa" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Habitat</h6> 
-                        <p class="value">
-                        L’alligator d’Amérique vit dans les rivières, les lacs et les marécages, dans les forêts tempérées de conifères ou de feuillus ainsi que dans les savanes. Il arrive aussi d’en observer dans quelques mangroves.
+                        <p class="value">La couleuvre à collier vit dans les forêts tempérées, les prairies, les broussailles méditerranéennes ainsi que les marais, souvent proche de certaines mares. On la retrouve entre 0 et 3000 mètres d’altitude.
                         </p>
                       </li>
     
                      <li><i class="fa-solid fa-paw" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Classe</h6> 
-                        <p class="value">Reptilia</p>
+                        <p class="value">Reptile lépidosaurien</p>
                       </li>
 
                       <li><i class="fa-solid fa-user-nurse" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">l’avis du vétérinaire.</h6>
-                        <p class="value"> L'alligator d'Amérique est en excellente santé.</p>
-                        
-                       
+                        <p class="value">couleuvre en colier est en excellente santé.</p>
+                    
                       </li>
                   </div>
                  </div>
@@ -82,17 +81,6 @@
 </div>
 </div>
  </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

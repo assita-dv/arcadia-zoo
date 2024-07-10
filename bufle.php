@@ -18,9 +18,9 @@
     ?>
  <!-- debut home-hiner section -->
  <section class="home-description" id="description">
-     <div class="description-about text-center text-white">
+     <div class="description-about-buffle text-center text-white">
     <div class="description-about-content">
-        <h1>ALLIGATOR D’AMÉRIQUE</h1>
+        <h1>BUFFLE D’AFRIQUE</h1>
     </div>
 </div>
      </section>
@@ -29,13 +29,13 @@
     <div class="container" style="max-width: 1200px;" >
     <div class="row details fram-space-before-medium" style="width: 100%;">
         <div class="decrire">
-        <h3>ALLIGATOR D’AMÉRIQUE</h3>
-        <p>L’alligator d’Amérique (Alligator mississippiensis), aussi appelé simplement alligator <br>ou crocodile au Canada, est un reptile de la famille des Alligatoridés. <br> On le trouve dans les cours d’eau et les zones marécageuses en Amérique du Nord. <br> Carnivore, il se nourrit de toute sorte d’animaux.</p>
+        <h3>BUFFLE D’AFRIQUE</h3>
+        <p>Le buffle d’Afrique (Syncerus caffer), aussi appelé grand buffle noir des savanes, <br> est un grand bovin que l’on trouve surtout dans les savanes et les forêts africaines. <br>Herbivore, il se nourrit principalement d’herbacés. </p>
     </div>
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/marais/aligator.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/marais/buffle afrique.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
@@ -46,29 +46,28 @@
                     <li><i class="fa-solid fa-magnifying-glass" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Nourriture et proies</h6>
-                        <p class="value">A l’âge adulte, l’alligator d’Amérique se nourrit de tortues, de poissons, de petits mammifères, d’autres crocodiliens plus petits (notamment des jeunes alligators). </p>
+                        <p class="value">Le buffle d’Afrique se nourrit d’herbe et de feuilles Strictement herbivore.</p>
+
                       </li>
                     
                     <li><i class="fa-solid fa-earth-africa" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Habitat</h6> 
-                        <p class="value">
-                        L’alligator d’Amérique vit dans les rivières, les lacs et les marécages, dans les forêts tempérées de conifères ou de feuillus ainsi que dans les savanes. Il arrive aussi d’en observer dans quelques mangroves.
+                        <p class="value"> Le buffle d’Afrique vit dans les savanes tropicales africaines ou dans les forêts tropicales, ainsi que dans certains marais.
                         </p>
                       </li>
     
                      <li><i class="fa-solid fa-paw" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Classe</h6> 
-                        <p class="value">Reptilia</p>
+                        <p class="value">Mammifère placentaire</p>
                       </li>
 
                       <li><i class="fa-solid fa-user-nurse" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">l’avis du vétérinaire.</h6>
-                        <p class="value"> L'alligator d'Amérique est en excellente santé.</p>
-                        
-                       
+                        <p class="value">Buffle d'afrique est en excellente santé.</p>
+                    
                       </li>
                   </div>
                  </div>
@@ -82,17 +81,6 @@
 </div>
 </div>
  </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

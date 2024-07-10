@@ -1010,19 +1010,109 @@ height: 100%;
         color: #fff;
         margin-top: 55px;
     }
+    /* color icon description animal */
    .content .icon-list i{
     font-size: 30px;
     color: #ff9408;
     margin-top: 20px;
   }
+/* start section description animaux bec-en-sabot */
+
+.description-about-bec-en-sabot{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../marais/bec-en-sabot.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* start section description animaux couleuvre-en-colier */
+
+.description-about-couleuvre{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../marais/couleuvre\ a\ collier.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* start section description animaux buffle*/
+
+.description-about-buffle{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../marais/buffle\ afrique.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
 /* start section footer*/
 .footer{
     margin-top: 170px;
     background-color: #265034;
-    /*padding: 0;
-    margin: 0;*/
     box-sizing: border-box;
-   /* padding-top: 120px;*/
 }
 
 .footer .container {
