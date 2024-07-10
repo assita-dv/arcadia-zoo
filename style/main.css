@@ -973,6 +973,48 @@ height: 100%;
     }
     /* end section home services */
 
+    /* start section description animaux*/
+
+    .description-about{
+        position: relative;
+        &::before{
+            content:"";
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background-image: url(../marais/aligator.jpg);
+            background-size: cover;
+            filter: brightness(0.5);
+        }
+    
+        *{
+           
+            position:relative;
+        }
+    
+        .description-about-content{
+            height: 510px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .decrire p{
+    color: #fff;
+
+    }
+    .decrire h3{
+        color: #fff;
+        margin-top: 55px;
+    }
+   .content .icon-list i{
+    font-size: 30px;
+    color: #ff9408;
+    margin-top: 20px;
+  }
 /* start section footer*/
 .footer{
     margin-top: 170px;
