@@ -139,9 +139,9 @@
      </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="marais/marabout-d'afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/marabout-afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Marabout-d'afrique</button></a>
+        <a href="marabou.php" ><button type="button" class="blogs-btn btn-lg">Marabout-d'afrique</button></a>
       </div>
     </div>
   </div>
