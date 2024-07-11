@@ -122,7 +122,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="marais/flamant rose.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Flamant rose</button></a>
+        <a href="flamanrose.php" ><button type="button" class="blogs-btn btn-lg">Flamant rose</button></a>
       </div>
     </div>
   </div>
@@ -133,7 +133,7 @@
     <div class="card h-100" style="width: 18rem; ">
       <img src="marais/grue royale.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Grue Royale</button></a>
+        <a href="grueroyale.php" ><button type="button" class="blogs-btn btn-lg">Grue Royale</button></a>
       </div>
   </div>
      </div>

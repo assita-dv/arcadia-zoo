@@ -18,9 +18,9 @@
     ?>
  <!-- debut home-hiner section -->
  <section class="home-description" id="description">
-     <div class="description-about-cerf text-center text-white">
+     <div class="description-about-flaman text-center text-white">
     <div class="description-about-content">
-        <h1>CERF DE VIRGINIE</h1>
+        <h1>FLAMANT ROSE</h1>
     </div>
 </div>
      </section>
@@ -29,13 +29,13 @@
     <div class="container" style="max-width: 1200px;" >
     <div class="row details fram-space-before-medium" style="width: 100%;">
         <div class="decrire">
-        <h3>CERF DE VIRGINIE</h3>
-        <p>Le cerf de Virginie (Odocoileus virginianus), aussi appelé biche des palétuviers, <br> chevreuil de Virginie ou cariacou, est un grand cervidé que l’on trouve dans les forêts, <br> prairies, marais et déserts de certains pays Américains. Principalement herbivore, <br> il se nourrit de toute sorte de végétaux. </p>
+        <h3>FLAMANT ROSE</h3>
+        <p>Le flamant rose (Phoenicopterus roseus), aussi appelé grand flamant rose, <br> est un grand échassier que l’on trouve dans les étendues d’eau salée <br> et dans les terres dans certaines régions d’Eurasie et d’Afrique. <br>Omnivore, il se nourrit principalement de petits animaux et de plantes aquatiques. </p>
     </div>
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/marais/cerf de virginie.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/marais/flamant rose.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
@@ -46,28 +46,26 @@
                     <li><i class="fa-solid fa-magnifying-glass" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Nourriture et proies</h6>
-                        <p class="value"> Le cerf de Virginie se nourrit essentiellement de légumineuses, de cactus, de feuilles, de fleurs, de plantes herbacées et d’herbe, notamment des plantes toxiques pour l’Homme (sumac).
-                        Il mange également des fruits, des champignons, des glands, du maïs, ainsi qu’occasionnellement de petits animaux (oiseaux chanteurs, rats). </p>
-
+                        <p class="value"> Le flamant rose se nourrit essentiellement d’invertébrés marins comme les insectes et leurs larves, les mollusques et les crustacés (notamment artémies, responsables de leur couleur rose). Il se nourrit également de petits poissons et de végétaux aquatiques (algues, graines, riz).</p>
                       </li>
                     
                     <li><i class="fa-solid fa-earth-africa" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Habitat</h6> 
-                        <p class="value">Le cerf de Virginie vit principalement dans les forêts de feuillus ou de conifères tempérées à tropicales et les clairières, ainsi que dans les prairies, les savanes, les déserts et les marais. 
+                        <p class="value"> Le flamant rose vit essentiellement dans les zones humides, essentiellement les étendues d’eau saumâtre comme les marais, les marécages, les lacs d’eau salée et les lagunes (estuaires). On l’observe également dans les savanes tropicales.
                         </p>
                       </li>
     
                      <li><i class="fa-solid fa-paw" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Classe</h6> 
-                        <p class="value">Mammifère placentaire</p>
+                        <p class="value">Oiseaux</p>
                       </li>
 
                       <li><i class="fa-solid fa-user-nurse" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">l’avis du vétérinaire.</h6>
-                        <p class="value">Cerf de virginie est en excellente santé.</p>
+                        <p class="value">Flamant Rose est en excellente santé.</p>
                     
                       </li>
                   </div>

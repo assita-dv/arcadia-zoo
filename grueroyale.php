@@ -18,9 +18,9 @@
     ?>
  <!-- debut home-hiner section -->
  <section class="home-description" id="description">
-     <div class="description-about-cerf text-center text-white">
+     <div class="description-about-grue text-center text-white">
     <div class="description-about-content">
-        <h1>CERF DE VIRGINIE</h1>
+        <h1>GRUE ROYALE</h1>
     </div>
 </div>
      </section>
@@ -29,13 +29,14 @@
     <div class="container" style="max-width: 1200px;" >
     <div class="row details fram-space-before-medium" style="width: 100%;">
         <div class="decrire">
-        <h3>CERF DE VIRGINIE</h3>
-        <p>Le cerf de Virginie (Odocoileus virginianus), aussi appelé biche des palétuviers, <br> chevreuil de Virginie ou cariacou, est un grand cervidé que l’on trouve dans les forêts, <br> prairies, marais et déserts de certains pays Américains. Principalement herbivore, <br> il se nourrit de toute sorte de végétaux. </p>
+        <h3>GRUE ROYALE</h3>
+        <p> La grue royale (Balearica regulorum), aussi appelée grue grise couronnée,  <br> est un grand oiseau que l’on trouve dans les savanes tropicales <br> et marécages dans certains pays Africains. Omnivore, elle se nourrit de petits animaux <br> ainsi que de quelques végétaux.
+         Malheureusement, cet oiseau somptueux est actuellement en voie de disparition.</p>
     </div>
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/marais/cerf de virginie.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/marais/grue royale.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
@@ -46,28 +47,28 @@
                     <li><i class="fa-solid fa-magnifying-glass" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Nourriture et proies</h6>
-                        <p class="value"> Le cerf de Virginie se nourrit essentiellement de légumineuses, de cactus, de feuilles, de fleurs, de plantes herbacées et d’herbe, notamment des plantes toxiques pour l’Homme (sumac).
-                        Il mange également des fruits, des champignons, des glands, du maïs, ainsi qu’occasionnellement de petits animaux (oiseaux chanteurs, rats). </p>
+                        <p class="value">La grue royale chasse des insectes, des serpents, des grenouilles, des petits poissons, des vers et des œufs d’animaux aquatiques. 
+                         Il mange également des graines, des céréales et certaines autres plantes. </p>
 
                       </li>
                     
                     <li><i class="fa-solid fa-earth-africa" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Habitat</h6> 
-                        <p class="value">Le cerf de Virginie vit principalement dans les forêts de feuillus ou de conifères tempérées à tropicales et les clairières, ainsi que dans les prairies, les savanes, les déserts et les marais. 
+                        <p class="value">La grue royale vit essentiellement dans les savanes tropicales sèches, les savanes inondées et les marais.
                         </p>
                       </li>
     
                      <li><i class="fa-solid fa-paw" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Classe</h6> 
-                        <p class="value">Mammifère placentaire</p>
+                        <p class="value"> Oiseaux</p>
                       </li>
 
                       <li><i class="fa-solid fa-user-nurse" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">l’avis du vétérinaire.</h6>
-                        <p class="value">Cerf de virginie est en excellente santé.</p>
+                        <p class="value">Grue royale est en excellente santé.</p>
                     
                       </li>
                   </div>
