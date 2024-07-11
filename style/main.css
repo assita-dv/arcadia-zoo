@@ -958,7 +958,7 @@ height: 100%;
         }
     
         .service-aboutf-content{
-            height: 710px;
+            height: 510px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -966,11 +966,7 @@ height: 100%;
         }
     }
 
-    .service-btn{
-        background-color: #ff9408;
-        color: #fff;
-        border-radius: 15px;
-    }
+    
     /* end section home services */
 
     /* start section description animaux*/
@@ -1311,6 +1307,43 @@ height: 100%;
         align-items: center;
         justify-content: center;
     }
+}
+
+/* start section description animaux Marabou d'afrique*/
+
+.description-about-chouette{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../marais/chouette\ effraie.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.voirleanimaux-btn {
+    background-color: #ff9408;
+    color: #fff;
+     border-radius: 7px;
+     height: 40px;
+    margin-left: 400px;
 }
 /* start section footer*/
 .footer{
