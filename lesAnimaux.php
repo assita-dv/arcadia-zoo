@@ -308,7 +308,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="marais/rainette de white.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Rainette de White</button></a>
+        <a href="rainette.php" ><button type="button" class="blogs-btn btn-lg">Rainette de White</button></a>
       </div>
     </div>
   </div>
