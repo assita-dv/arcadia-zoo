@@ -22,7 +22,6 @@
      <div class="service-aboutf text-center text-white">
     <div class="service-aboutf-content">
         <h1>Zoo Arcadia</h1>
-        <button class="service-btn">voir les animaux</button>
     </div>
 </div>
      </section>
@@ -75,7 +74,7 @@
     <div class="card h-100" style="width: 18rem; ">
       <img src="marais/cerf de virginie.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Cerf de virginie</button></a>
+        <a href="cerf.php" ><button type="button" class="blogs-btn btn-lg">Cerf de virginie</button></a>
       </div>
   </div>
      </div>
@@ -83,7 +82,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="marais/faucon pèlerin.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Faucon pèlerin</button></a>
+        <a href="fauconp.php" ><button type="button" class="blogs-btn btn-lg">Faucon pèlerin</button></a>
       </div>
     </div>
   </div>
@@ -91,7 +90,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="marais/raton-laveur.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Raton-laveur</button></a>
+        <a href="raton.php" ><button type="button" class="blogs-btn btn-lg">Raton-laveur</button></a>
       </div>
     </div>
   </div>
@@ -194,9 +193,9 @@
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;" >
-      <img src="marais/buffle d'afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/buffle afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Buffle d'afrique</button></a>
+        <a href="bufle.php" ><button type="button" class="blogs-btn btn-lg">Buffle d'afrique</button></a>
       </div>
     </div>
   </div>
@@ -204,7 +203,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="marais/crocodile.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Crocodile</button></a>
+        <a href="crocodile.php" ><button type="button" class="blogs-btn btn-lg">Crocodile</button></a>
       </div>
     </div>
   </div>
@@ -336,7 +335,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="/images/jungle/crodille.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Crocrodille</button></a>
+        <a href="crocodile.php" ><button type="button" class="blogs-btn btn-lg">Crocrodille</button></a>
       </div>
     </div>
   </div>
@@ -456,20 +455,6 @@
      </div>
  </section>
     <!--end groupe animaux section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="/script.javascript/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

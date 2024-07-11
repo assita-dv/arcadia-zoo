@@ -76,9 +76,9 @@
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;" >
-      <img src="marais/buffle d'afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="marais/buffle afrique.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Buffle d'afrique</button></a>
+        <a href="bufle.php" ><button type="button" class="blogs-btn btn-lg">Buffle d'afrique</button></a>
       </div>
     </div>
   </div>
@@ -86,7 +86,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="marais/crocodile.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Crocodile</button></a>
+        <a href="crocodile.php" ><button type="button" class="blogs-btn btn-lg">Crocodile</button></a>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@
     <div class="card h-100" style="width: 18rem; ">
       <img src="marais/cerf de virginie.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Cerf de virginie</button></a>
+        <a href="cerf.php" ><button type="button" class="blogs-btn btn-lg">Cerf de virginie</button></a>
       </div>
   </div>
      </div>
@@ -106,7 +106,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="marais/faucon pèlerin.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Faucon pèlerin</button></a>
+        <a href="fauconp.php" ><button type="button" class="blogs-btn btn-lg">Faucon pèlerin</button></a>
       </div>
     </div>
   </div>
@@ -114,7 +114,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="marais/raton-laveur.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Raton-laveur</button></a>
+        <a href="raton.php" ><button type="button" class="blogs-btn btn-lg">Raton-laveur</button></a>
       </div>
     </div>
   </div>
