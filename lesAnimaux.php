@@ -46,7 +46,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="savane/chimpanzé.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Chimpanzé</button></a>
+        <a href="chimpanze.php3"> <button class="blogs-btn btn-lg">Chimpanzé</button></a>
       </div>
     </div>
   </div>
@@ -54,7 +54,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="savane/guépard.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Guépard</button></a>
+        <a href="guepard.php" ><button type="button" class="blogs-btn btn-lg">Guépard</button></a>
       </div>
     </div>
   </div>

@@ -1494,6 +1494,65 @@ height: 100%;
     }
 }
 
+/* start section description animaux chimpanze*/
+
+.description-about-chimpanze{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../savane/chimpanzé2.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* start section description animaux guepard*/
+
+.description-about-guepard{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../savane/guépard.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 /* start section footer*/
 .footer{
     margin-top: 170px;
