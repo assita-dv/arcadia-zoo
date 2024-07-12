@@ -176,7 +176,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="Marais/salamander-maculée.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">salamander-maculée</button></a>
+        <a href="salamander.php" ><button type="button" class="blogs-btn btn-lg">salamandre-maculée</button></a>
       </div>
     </div>
   </div>
@@ -184,7 +184,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="/images/marais/loutre1.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Loutre</button></a>
+        <a href="loutre.php" ><button type="button" class="blogs-btn btn-lg">Loutre</button></a>
       </div>
     </div>
   </div>
@@ -192,7 +192,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="/images/marais/la belette.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">la belette</button></a>
+        <a href="belette.php" ><button type="button" class="blogs-btn btn-lg">la belette</button></a>
       </div>
     </div>
   </div>

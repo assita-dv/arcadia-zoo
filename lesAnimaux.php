@@ -36,7 +36,7 @@
      <div class="row">
     <div class="col ">
     <div class="card h-100" style="width: 18rem; ">
-      <img src="savane/ara hyacinthe.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="images/proquet.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="#" ><button type="button" class="blogs-btn btn-lg">Ara hyacinthe</button></a>
       </div>
@@ -140,14 +140,6 @@
      </div>
      <!-- 4eme tour -->
      <div class="row" style="margin-top: 65px;">
-     <div class="col ">
-    <div class="card h-100" style="width: 18rem; ">
-      <img src="/images/autriche.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Autruche</button></a>
-      </div>
-  </div>
-     </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
       <img src="/images/zebre.jpg" style="height :250px;" class="card-img-top" alt="...">
@@ -157,18 +149,26 @@
     </div>
   </div>
   <div class="col ">
-    <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/pareceux.jpg" style="height :250px;" class="card-img-top" alt="...">
+    <div class="card h-100" style="width: 18rem;">
+      <img src="/images/capybara1.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Pareceux</button></a>
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">Capybara</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col ">
+    <div class="card h-100" style="width: 18rem;" >
+      <img src="/images/marais/loutre1.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a href="loutre.php" ><button type="button" class="blogs-btn btn-lg">Loutre</button></a>
       </div>
     </div>
   </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/capybara1.jpg" style="height :250px;"class="card-img-top" alt="...">
+      <img src="/images/marais/la belette.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Capybara</button></a>
+        <a href="belette.php" ><button type="button" class="blogs-btn btn-lg">la belette</button></a>
       </div>
     </div>
   </div>
@@ -332,18 +332,18 @@
     </div>
   </div>
   <div class="col ">
-    <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/jungle/crodille.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="crocodile.php" ><button type="button" class="blogs-btn btn-lg">Crocrodille</button></a>
-      </div>
-    </div>
-  </div>
-  <div class="col ">
     <div class="card h-100" style="width: 18rem;">
       <img src="/images/jungle/orang-outan.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
         <a href="#" ><button type="button" class="blogs-btn btn-lg">orang-outan</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col ">
+    <div class="card h-100" style="width: 18rem;" >
+      <img src="/images/jungle/gorille.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a href="#" ><button type="button" class="blogs-btn btn-lg">gorille</button></a>
       </div>
     </div>
   </div>
@@ -397,61 +397,11 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="Marais/salamander-maculée.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">salamander-maculée</button></a>
-      </div>
-    </div>
-  </div>
-  <div class="col ">
-    <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/marais/loutre1.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Loutre</button></a>
-      </div>
-    </div>
-  </div>
-  <div class="col ">
-    <div class="card h-100" style="width: 18rem;">
-      <img src="/images/marais/la belette.jpg" style="height :250px;"class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">la belette</button></a>
+        <a href="salamander.php" ><button type="button" class="blogs-btn btn-lg">salamander-maculée</button></a>
       </div>
     </div>
   </div>
      </div>
-     <!-- 11 ème tour-->
-     <div class="row" style="margin-top: 65px;">
-     <div class="col ">
-    <div class="card h-100" style="width: 18rem; ">
-      <img src="/images/jungle/kankourou.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Kangourou</button></a>
-      </div>
-  </div>
-     </div>
-  <div class="col ">
-    <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/singes.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">singes</button></a>
-      </div>
-    </div>
-  </div>
-  <div class="col ">
-    <div class="card h-100" style="width: 18rem;" >
-      <img src="/images/jungle/gorille.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">gorille</button></a>
-      </div>
-    </div>
-  </div>
-  <div class="col ">
-    <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/tigre-blanc.jpg" style="height :250px;"class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Dragon-komodo</button></a>
-      </div>
-    </div>
-  </div>
      </div>
  </section>
     <!--end groupe animaux section -->
