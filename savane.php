@@ -141,7 +141,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="savane/élephant d.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Elephant</button></a>
+        <a href="elephant.php" ><button type="button" class="blogs-btn btn-lg">Elephant</button></a>
       </div>
     </div>
   </div>
@@ -149,7 +149,8 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="savane/padda de java.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">padda de java</button></a>
+        
+      <a href="padda.php"><button type="button" class="blogs-btn btn-lg">padda de java</button></a>
       </div>
     </div>
   </div>
