@@ -257,7 +257,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="savane/panthère.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Panthère</button></a>
+        <a href="panthere.php" ><button type="button" class="blogs-btn btn-lg">Panthère</button></a>
       </div>
     </div>
   </div>
