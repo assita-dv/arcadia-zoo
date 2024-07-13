@@ -1752,7 +1752,7 @@ height: 100%;
         justify-content: center;
     }
 }
-/* start section description animaux girafe*/
+/* start section description animaux padda de java*/
 .description-about-padda{
     position: relative;
     &::before{
@@ -1763,6 +1763,62 @@ height: 100%;
         width:100%;
         height:100%;
         background-image: url(../savane/padda\ de\ java.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* start section description animaux capybara*/
+.description-about-capybara{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../images/capybara1.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* start section description animaux python*/
+.description-about-python{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../images/jungle/python.jpg);
         background-size: cover;
         filter: brightness(0.5);
     }
