@@ -319,7 +319,7 @@
     <div class="card h-100" style="width: 18rem; ">
       <img src="/images/jungle/mandrill.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Mandrill</button></a>
+        <a href="gelada.php" ><button type="button" class="blogs-btn btn-lg">Gélada</button></a>
       </div>
   </div>
      </div>
@@ -327,7 +327,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="/images/jungle/opaki.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Opaki</button></a>
+        <a href="opaki.php" ><button type="button" class="blogs-btn btn-lg">Okapi</button></a>
       </div>
     </div>
   </div>

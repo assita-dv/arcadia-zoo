@@ -1920,8 +1920,8 @@ height: 100%;
         justify-content: center;
     }
 }
-/* start section description animaux poco*/
-.description-about-poco{
+/* start section description animaux gelada*/
+.description-about-gelada{
     position: relative;
     &::before{
         content:"";
@@ -1930,7 +1930,35 @@ height: 100%;
         left:0;
         width:100%;
         height:100%;
-        background-image: url(../images/jungle/poco.jpg);
+        background-image: url(../images/jungle/mandrill.jpg);
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+
+    *{
+       
+        position:relative;
+    }
+
+    .description-about-content{
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* start section description animaux okapi*/
+.description-about-okapi{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../images/jungle/opaki.jpg);
         background-size: cover;
         filter: brightness(0.5);
     }
