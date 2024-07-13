@@ -17,9 +17,9 @@
     ?>
  <!-- debut home-hiner section -->
  <section class="home-description" id="description">
-     <div class="description-about-rhinoceros text-center text-white">
+     <div class="description-about-vautour text-center text-white">
     <div class="description-about-content">
-        <h1>RHINOCÉROS NOIR</h1>
+        <h1>VAUTOUR FAUVE</h1>
     </div>
 </div>
      </section>
@@ -28,43 +28,46 @@
     <div class="container" style="max-width: 1200px;" >
     <div class="row details fram-space-before-medium" style="width: 100%;">
         <div class="decrire">
-        <h3>RHINOCÉROS NOIR</h3>
-        <p>Le rhinocéros noir (Diceros bicornis) est un grand mammifère ruminant <br> que l’on trouve dans quelques rares savanes en Afrique. <br>Mégaherbivore, il se nourrit de divers végétaux qu’il broute. </p>
+        <h3>VAUTOUR FAUVE</h3>
+        <p>Le vautour fauve (Gyps fulvus), anciennement griffon, est un grand oiseau de la famille des Accipitridés. <br>On le trouve à la fois dans les zones ouvertes rocheuses ou légèrement boisées dans divers pays d’Europe, <br> d’Asie et d’Afrique du Nord. Exclusivement charognard, il se nourrit de cadavres d’animaux divers.
+
+ </p>
     </div>
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/savane/rhinocéros noir.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/savane/vautour percnoptère.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
+        <!-- stylr background color: ; -->
          <div class="content">
             <div class="icon-list">
                 <ul>
                     <li><i class="fa-solid fa-magnifying-glass" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Nourriture et proies</h6>
-                        <p class="value">Le rhinocéros noir se nourrit exclusivement de végétaux. Cependant, contrairement au rhinocéros blanc, il ne se nourrit pas d’herbe, mais plutôt de feuilles, de brindilles, de branches, de buissons et autres plantes épineuses.</p>
+                        <p class="value"> Le vautour fauve se nourrit des carcasses de différents animaux. Il s’attaque principalement aux cadavres des grands herbivores sauvages (mouflons, chamois, bouquetins) ou domestiques (chèvres, vaches, moutons, chevaux). Il préfère se nourrir de chair molle et fraîche, laissant les parties plus dures à d’autres charognards. </p>
+
                       </li>
                     
                     <li><i class="fa-solid fa-earth-africa" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                     <h6 class="category">Habitat</h6> 
-                        <p class="value">Le rhinocéros noir vit exclusivement dans les savanes et prairies sèches, les lisières de forêts et les savanes inondées.</p>
+                        <p class="value">On trouve le vautour fauve dans les zones désertiques, dans les falaises, les prairies de montagne et d’autres grandes étendues dégagées (savanes, plaines), de climat tempéré ou tropical. On l’observe également dans les bois méditerranéens.</p>
                         
                       </li>
     
                      <li><i class="fa-solid fa-paw" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Classe</h6> 
-                        <p class="value">Mammifère placentaire </p>
+                        <p class="value">Aves (Oiseaux)</p>
                       </li>
 
                       <li><i class="fa-solid fa-user-nurse" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">l’avis du vétérinaire.</h6>
-                        <p class="value">Le Rhinoceros est en bonne santé.</p>
-                    
+                        <p class="value">Le Vautour est en bonne santé.</p>
                       </li>
                   </div>
                  </div>
