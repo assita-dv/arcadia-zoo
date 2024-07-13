@@ -16,9 +16,9 @@
     ?>
  <!-- debut home-hiner section -->
  <section class="home-description" id="description">
-     <div class="description-about-hipopo text-center text-white">
+     <div class="description-about-koalla text-center text-white">
     <div class="description-about-content">
-        <h1>HIPPOPOTAME </h1>
+        <h1> KOALA</h1>
     </div>
 </div>
      </section>
@@ -27,13 +27,14 @@
     <div class="container" style="max-width: 1200px;" >
     <div class="row details fram-space-before-medium" style="width: 100%;">
         <div class="decrire">
-        <h3> HIPPOPOTAME</h3>
-        <p>L’hippopotame commun (Hippopotamus amphibius), aussi appelé hippopotame <br> amphibie ou même hippopotame, est un grand mammifère semi-aquatique <br>que l’on trouve dans certains lacs et rivières en Afrique. <br> Mégaherbivore, il se nourrit essentiellement d’herbes.</p>
+        <h3>KOALA</h3>
+        <p>Le koala (Phascolarctos cinereus) est un marsupial arboricole <br> que l’on trouve dans certaines forêts en Australie. Herbivore, <br>il se nourrit quasi exclusivement de feuilles d’eucalyptus.
+         <br>Malheureusement, cet animal emblématique de l’Australie est en voie d’extinction.</p>
     </div>
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/images/jungle/hipopotam.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/images/jungle/koalla.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
@@ -44,26 +45,26 @@
                     <li><i class="fa-solid fa-magnifying-glass" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Nourriture et proies</h6>
-                        <p class="value"> L’hippopotame commun se nourrit quasi exclusivement d’herbe : il en broute jusqu’à 68 kg par jour. Il lui arrive également de se nourrir d’autres végétaux comme certaines plantes aquatiques.</p>
+                        <p class="value">Le koala se nourrit essentiellement de feuilles d’eucalyptus (arbres dans lesquels il vit), et il est un des seuls animaux à pouvoir les digérer. Il en mange également les fruits et l’écorce. </p>
                       </li>
                     
                     <li><i class="fa-solid fa-earth-africa" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                     <h6 class="category">Habitat</h6> 
-                        <p class="value">L’hippopotame vit principalement dans les savanes et prairies tropicales et les forêts tropicales dans les lacs et les rivières, ainsi que dans les mangroves.</p>
+                        <p class="value">Le koala vit dans les forêts tempérées d’eucalyptus et dans les forêts broussailleuses méditerranéennes (bush australien).</p>
                         
                       </li>
     
                      <li><i class="fa-solid fa-paw" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Classe</h6> 
-                        <p class="value">Mammifère placentaire </p>
+                        <p class="value">Mammifère </p>
                       </li>
 
                       <li><i class="fa-solid fa-user-nurse" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">l’avis du vétérinaire.</h6>
-                        <p class="value">Le gorille est en bonne santé.</p>
+                        <p class="value">Le koalla est en bonne santé.</p>
                     
                       </li>
                   </div>

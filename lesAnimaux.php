@@ -117,7 +117,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="/images/jungle/hipopotam.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">hipopotam</button></a>
+        <a href="hipopo.php" ><button type="button" class="blogs-btn btn-lg">Hipopotam</button></a>
       </div>
     </div>
   </div>
@@ -125,7 +125,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="/images/jungle/koalla.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Perroquet</button></a>
+        <a href="koalla.php" ><button type="button" class="blogs-btn btn-lg">Koalla</button></a>
       </div>
     </div>
   </div>
@@ -152,7 +152,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="/images/capybara1.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Capybara</button></a>
+        <a href="capybara.php" ><button type="button" class="blogs-btn btn-lg">Capybara</button></a>
       </div>
     </div>
   </div>
