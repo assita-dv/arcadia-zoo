@@ -2119,8 +2119,8 @@ height: 100%;
         justify-content: center;
     }
 }
-/* start section description animaux koalla
-.description-about-koalla{
+/* start section description animaux lemur*/
+.description-about-lemur{
     position: relative;
     &::before{
         content:"";
@@ -2129,7 +2129,7 @@ height: 100%;
         left:0;
         width:100%;
         height:100%;
-        background-image: url(../images/jungle/koalla.jpg);
+        background-image: url(../images/jungle/lemurs.jpg);
         background-size: cover;
         filter: brightness(0.5);
     }
