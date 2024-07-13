@@ -62,7 +62,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="savane/lion2.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Lion</button></a>
+        <a href="lion.php" ><button type="button" class="blogs-btn btn-lg">Lion</button></a>
       </div>
     </div>
   </div>
@@ -140,11 +140,11 @@
      </div>
      <!-- 4eme tour -->
      <div class="row" style="margin-top: 65px;">
-  <div class="col ">
+     <div class="col ">
     <div class="card h-100" style="width: 18rem;">
-      <img src="/images/zebre.jpg" style="height :250px;" class="card-img-top" alt="...">
+      <img src="Marais/salamander-maculée.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Zebre</button></a>
+        <a href="salamander.php" ><button type="button" class="blogs-btn btn-lg">salamander-maculée</button></a>
       </div>
     </div>
   </div>
@@ -393,14 +393,7 @@
       </div>
   </div>
      </div>
-  <div class="col ">
-    <div class="card h-100" style="width: 18rem;">
-      <img src="Marais/salamander-maculée.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="salamander.php" ><button type="button" class="blogs-btn btn-lg">salamander-maculée</button></a>
-      </div>
-    </div>
-  </div>
+  
      </div>
      </div>
  </section>

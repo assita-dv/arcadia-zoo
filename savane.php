@@ -86,7 +86,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="savane/lion2.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Lion</button></a>
+        <a href="lion.php" ><button type="button" class="blogs-btn btn-lg">Lion</button></a>
       </div>
     </div>
   </div>
