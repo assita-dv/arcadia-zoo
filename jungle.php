@@ -77,7 +77,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="/images/jungle/poco.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Perroquet</button></a>
+        <a href="poco.php" ><button type="button" class="blogs-btn btn-lg">Perroquet</button></a>
       </div>
     </div>
   </div>
@@ -85,7 +85,7 @@
     <div class="card h-100" style="width: 18rem;">
       <img src="/images/jungle/komodo-dragon.jpg" style="height :250px;"class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Dragon-komodo</button></a>
+        <a href="komodo.php" ><button type="button" class="blogs-btn btn-lg">Dragon-komodo</button></a>
       </div>
     </div>
   </div>
