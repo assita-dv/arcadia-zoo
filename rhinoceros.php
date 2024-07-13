@@ -17,9 +17,9 @@
     ?>
  <!-- debut home-hiner section -->
  <section class="home-description" id="description">
-     <div class="description-about-panthere text-center text-white">
+     <div class="description-about-rhinoceros text-center text-white">
     <div class="description-about-content">
-        <h1>PANTHÈRE NÉBULEUSE</h1>
+        <h1>RHINOCÉROS NOIR</h1>
     </div>
 </div>
      </section>
@@ -28,14 +28,13 @@
     <div class="container" style="max-width: 1200px;" >
     <div class="row details fram-space-before-medium" style="width: 100%;">
         <div class="decrire">
-        <h3>PANTHÈRE NÉBULEUSE</h3>
-        <p> La panthère nébuleuse (Neofelis nebulosa), aussi appelée léopard nébuleux <br>ou panthère longibande, est un prédateur de la famille des félins panthérinés <br>que l’on trouve dans certaines jungles asiatiques. Carnivore, <br> il se nourrit de toutes les proies qu’il trouve.
-        Malheureusement, ce majestueux carnivore est en voie de disparition.</p>
+        <h3>RHINOCÉROS NOIR</h3>
+        <p>Le rhinocéros noir (Diceros bicornis) est un grand mammifère ruminant <br> que l’on trouve dans quelques rares savanes en Afrique. <br>Mégaherbivore, il se nourrit de divers végétaux qu’il broute. </p>
     </div>
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/savane/panthère.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/savane/rhinocéros noir.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
@@ -45,14 +44,13 @@
                     <li><i class="fa-solid fa-magnifying-glass" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                         <h6 class="category">Nourriture et proies</h6>
-                        <p class="value">La panthère nébuleuse se nourrit de différentes proies animales, comme des rongeurs, des pangolins, des singes, des oiseaux, des écureuils et des cerfs.
-                        Elle peut aussi s’attaquer au bétail et aux porcs-épics.</p>
+                        <p class="value">Le rhinocéros noir se nourrit exclusivement de végétaux. Cependant, contrairement au rhinocéros blanc, il ne se nourrit pas d’herbe, mais plutôt de feuilles, de brindilles, de branches, de buissons et autres plantes épineuses.</p>
                       </li>
                     
                     <li><i class="fa-solid fa-earth-africa" style="width: 48px; height: 48px;"></i>
                     <div class="text-wrap">
                     <h6 class="category">Habitat</h6> 
-                        <p class="value">La panthère nébuleuse vit principalement dans les forêts tropicales humides primaires, mais également dans les mangroves, les forêts tempérées de feuillus ou de conifères et certaines prairies.</p>
+                        <p class="value">Le rhinocéros noir vit exclusivement dans les savanes et prairies sèches, les lisières de forêts et les savanes inondées.</p>
                         
                       </li>
     

@@ -114,7 +114,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="savane/rhinocéros noir.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#" ><button type="button" class="blogs-btn btn-lg">Rhinocéros Noir</button></a>
+        <a href="rhinoceros.php" ><button type="button" class="blogs-btn btn-lg">Rhinocéros Noir</button></a>
       </div>
     </div>
   </div>
