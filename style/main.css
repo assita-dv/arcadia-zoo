@@ -1,6 +1,6 @@
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map 
 
-@import 'custom';
+@import 'custom'; */
 
 .header{
     background-color: #212D25;
@@ -432,6 +432,34 @@ height: 100%;
 }
 
 /* end section contact*/
+.tout-about{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../images/bufle.jpg);
+        background-size: cover;
+        filter: brightness(0.7);
+    }
+
+    *{
+        /*Positionner les éléments devant le ::before*/
+        position:relative;
+    }
+
+    .tout-about-content{
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* end section home tout les animaux */
 
 /* start pages junle */
 
@@ -853,7 +881,12 @@ height: 100%;
             font-weight: bold;
             color: #265034;
         }
-        
+        #train p{
+            color: #fff;
+            font-size: 20px;
+            
+           }
+
         #train .card img{
             border-radius: 10px;
         }
@@ -861,12 +894,6 @@ height: 100%;
              border-radius: 15px;
         }
 
-         #train p{
-          color: #fff;
-          /*margin-top: 80px;*/
-          font-size: 20px;
-          
-         }
          .heading-train h2{
             color: #fff;
             text-align: center;
@@ -937,8 +964,8 @@ height: 100%;
     }
     /* end section guide gratuit*/
 
-    /* voir les animaux fin service */
-    .service-aboutf{
+    /* la page sevices voire tout les animaux  */
+    .service-aboutf1{
         position: relative;
         &::before{
             content:"";
@@ -947,7 +974,7 @@ height: 100%;
             left:0;
             width:100%;
             height:100%;
-            background-image: url(../savane/ara\ hyacinthe1.jpg);
+            background-image: url(../images/bufle.jpg);
             background-size: cover;
             filter: brightness(0.5);
         }
@@ -957,13 +984,19 @@ height: 100%;
             position:relative;
         }
     
-        .service-aboutf-content{
-            height: 510px;
+        .service-aboutf1-content{
+            height: 500px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
+    }
+    .servicef1-btn{
+        border-radius: 8px;
+        background-color: #ff9408;
+        height: 40px;
+        width: 150px;
     }
 
     

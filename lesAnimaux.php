@@ -18,10 +18,11 @@
     ?>
 
 <!-- debut home section fin -->
-<section class="home-service-f" id="servicef">
-     <div class="service-aboutf text-center text-white">
-    <div class="service-aboutf-content">
-        <h1>Zoo Arcadia</h1>
+<section class="home-tout-a" id="servicef">
+     <div class="tout-about text-center text-white">
+    <div class="tout-about-content">
+        <h1>Vous êtes curieux et passionnés de nature ?</h1>
+        <h5> Ici, apprenez-en plus sur toutes les espèces <br>animales que vous pouvez rencontrer au Zoo Arcadia</h5>
     </div>
 </div>
      </section>
@@ -32,7 +33,8 @@
     <div class="heaging-4">
      <div class="container">
      <div class="animaux-s">
-         <h2> Tout Nos Animaux </h2></div>
+         <h2> </h2>
+ </div>
      <div class="row">
     <div class="col ">
     <div class="card h-100" style="width: 18rem; ">

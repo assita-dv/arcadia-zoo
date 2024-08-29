@@ -187,7 +187,7 @@
                     <div class="row">
                         <div class=" col-lg-6 col-md-12">
                         <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Nom*" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" placeholder="sujet*" aria-describedby="emailHelp">
                         </div>
                         </div>
                         <div class=" col-lg-6 col-md-12">
@@ -198,7 +198,7 @@
                         <div class="row">
                         <div class="col-lg-12">
                         <div class="mb-3">
-                     <textarea class="form-control" placeholder="Messages" id="exampleFormControlTextarea1" rows="3"></textarea>
+                       <textarea class="form-control" placeholder="Messages" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         </div>
                         <div class="mb-3 form-check">
