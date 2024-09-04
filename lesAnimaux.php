@@ -115,14 +115,14 @@
       </div>
   </div>
      </div>
-  <div class="col ">
-    <div class="card h-100" style="width: 18rem;">
-      <img src="/images/jungle/hipopotam.jpg" style="height :250px;" class="card-img-top" alt="...">
+     <div class="col ">
+    <div class="card h-100" style="width: 18rem; ">
+      <img src="marais/aligator.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="hipopo.php" ><button type="button" class="blogs-btn btn-lg">Hipopotam</button></a>
+        <a href="alligator.php" ><button type="button" class="blogs-btn btn-lg">Aligator</button></a>
       </div>
-    </div>
   </div>
+     </div>
   <div class="col ">
     <div class="card h-100" style="width: 18rem;" >
       <img src="/images/jungle/koalla.jpg" style="height :250px;" class="card-img-top" alt="...">
@@ -386,15 +386,7 @@
   </div>
      </div>
      <!-- 10eme tour -->
-     <div class="row" style="margin-top: 65px;">
-     <div class="col ">
-    <div class="card h-100" style="width: 18rem; ">
-      <img src="marais/aligator.jpg" style="height :250px;" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="alligator.php" ><button type="button" class="blogs-btn btn-lg">Aligator</button></a>
-      </div>
-  </div>
-     </div>
+     
   
      </div>
      </div>

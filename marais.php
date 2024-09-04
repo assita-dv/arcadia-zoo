@@ -21,7 +21,7 @@
      <section class="home-marais" id="marais">
      <div class="marais-about text-center text-white">
     <div class="marais-about-content">
-        <p>Habitat Jungle</p>
+        <p>Habitat MARAIS</p>
         <h1>Zoo Arcadia</h1>
     </div>
 </div>
@@ -40,8 +40,8 @@
         </div>
         <div class="col-md-6">
     <h7>presentation</h7>
-       <p>Le Zoo arcadia écrit actuellement l’une des pages les plus passionnantes et les plus stimulantes de son histoire. Cette aventure est avant tout une rencontre de femmes et d’hommes animés d’une passion commune et désireux d’atteindre l’excellence dans l’accomplissement des missions du parc : émerveillement des visiteurs, éducation, recherche et conservation.
-          « Une saison au zoo » témoigne aujourd’hui de ication sans faille dans la préservation de la biodiversité, menacée de toutes parts. A travers les projets qu’il porte, notre zoo fait maintenant un pari pour l’avenir : celui que notre créativité, nos valeurs de générosité, d’altruisme, d’optimisme et d’engagement total aux côtés des acteurs de la conservation, touchent le jeune public, cette génération future qui demain aura la lourde responsabilité de soigner, préserver, notre si belle planète.</p>
+       <p>Les marais (ou marécages / zones marécageuses) sont un écosystème à la fois terrestre et aquatique composé d’une grande étendue d’eau stagnante généralement peu profonde et abondante en végétation. On trouve ce biotope un peu partout sur le globe, essentiellement dans les régions chaudes ou tempérées. La végétation est très variable, pouvant se composer de plantes aquatiques et d’arbres divers. Il n’est pas considéré comme un biome à part entière selon la WWF.
+         De par l’humidité et la diversité de végétation, ces zones sont très riches en espèces animales, notamment des reptiles amphibies (crocodiliens, serpents constricteurs), des amphibiens, des oiseaux (aquatique ou non) et des invertébrés divers (insectes, gastéropodes). Diverses espèces de mammifères de toute taille en sont également dépendantes.</p>
         <div>
     </div>
 </div>
