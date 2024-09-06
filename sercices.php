@@ -40,8 +40,8 @@
             </div>
             </div>
             <div class="col-md-6" >
-         <h2>Safari Restaurant </h2>
-        <p>SAFARI ARKA
+         <h2>ARCADIA RESTAURANT </h2>
+        <p> arcadia restaurant
 Ouvert toute l’année, venez profiter d’une pause déjeuner décontractante dans notre cafétéria ou sur ses terrasses.
 Menu adulte à partir de 15€20 Menu enfant à 8€90
 Ouvert tous les jours, dès l’ouverture du parc, le restaurant- Safari ARKA vous propose un large choix d’entrées, plats chauds, desserts, boissons et glaces.
@@ -61,7 +61,7 @@ Service chaud entre 11h45 et 15h. Accès privilégié pour les personnes à mobi
             </div>
             </div>
                  <div class="col-md-6" >
-            <h2> Visite d'habitat au bord d'un petit train.</h2>
+            <h2> Visite du zoo en petit train.</h2>
            <p> Visite d'habitat au bord d'un petit train. Nous avons mis en place des petits trains safari pour que vous puissiez profiter 
              pleinement de votre visite, tout aussi divertissante.</p>
   </div>

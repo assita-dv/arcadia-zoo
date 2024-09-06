@@ -232,7 +232,7 @@
     <div class="card h-100" style="width: 18rem;" >
       <img src="/images/jungle/poco.jpg" style="height :250px;" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="poco.php" ><button type="button" class="blogs-btn btn-lg">Perroquet</button></a>
+        <a href="poco.php" ><button type="button" class="blogs-btn btn-lg">MACAREUX MOINE</button></a>
       </div>
     </div>
   </div>
