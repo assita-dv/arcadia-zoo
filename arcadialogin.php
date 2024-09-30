@@ -11,22 +11,24 @@
     <link rel="stylesheet" href="/style/main.scss">
     
 </head>
-
-<body >
-    <div class="login-body">
+<header>
 <?php
     require "pages/header.html";
     ?>
+</header>
+
+<body >
+    <div class="login-body">
 <section class="login-section">
     
     <h1 class="login-h1">Connexion</h1>
-    <form action="admin.php" method="post">
+    <form action="/backend/loginbdd.php" method="post">
     <div class="input-box">
-        <input type="text" placeholder="username" required>
+        <input type="email" name="email" placeholder="username" required>
         <i class="fa-solid fa-user"></i>
         </div>
         <div class="input-box">
-        <input type="password" placeholder="mot de passe" required>
+        <input type="password" name="password" placeholder="mot de passe" required>
         <i class="fa-solid fa-lock"></i>
     </div>
     <div class="remenber-forgot">
