@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif ;
+ } 
+ /*defition de mes couleur*/
+ :root{
+    --cyan: hsl(206, 100%, 88%);
+    --text-cyan: hsla(209, 100%, 88% ,0.75);
+    --text-an: hsl(0, 0%, 93%);
+    --text-cyann: hsla(54, 100%, 88%, 0.75);
+    --greenly:hsl(140, 46%, 20%);
+    --darkly: hsl(220, 12%, 5%);
+    --text-primary: hsl(220, 8%, 16%);
+    --lightly: hsl(202, 6%, 72%);
+ }
+ /* start fichier user table employée*/
+
+/* ####### Main ###### */
+   .main1-container{
+    grid-area: main;
+    padding: 20px;
+    padding-top: 80px;
+    margin-left: 30px;
+  }
+  .main1-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+     text-align: center;
+  }
+  .main1-title p{
+    font-size: 20px;
+    color: #ffffff;
+     border-color: rgb(217, 211, 19);
+  }
+  .table{
+    background-color: var(--text-an);
+  }
+  .btn-bd-primary {
+    color: var(--bs-white);
+    border-radius: 50px;
+  }
+  .main1-title a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+  }
+  .main1-title {
+    margin-top: 20px;
+  }
+  /* start section ajout animaux formulaire */
+   .main2-container{
+      left: 200px;
+      margin-left: 480px;
+      }
+      .main2-title{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        text-align: center;
+      }
+
+    /* fin section ajout animaux formulaire */
+ 
+    /* start section table horaire */
+     .main3-container{
+      grid-area: main;
+     padding: 20px;
+     margin-top: 50px;
+     }
+     
+    
+    .table-horaire{
+      margin-top: 30px;
+      object-position: 50% 50%;
+    }
+    .link_container{
+      color: #ffffff;
+      margin-top: 40px;
+    }
+    /* fin section table horaire */
