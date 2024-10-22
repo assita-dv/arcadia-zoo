@@ -30,15 +30,15 @@
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-users-gear" title="Les employée"></i></span>
-                   <a href="/User/showUser.php"><span class="label-item"> Les employée</span> </a>
+                   <a href="/backend/User/showUser.php"><span class="label-item"> Les employée</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-hippo" title="Animaux"></i></span>
-                    <a href="/animaux.table/animaux.php"><span class="label-item"> Les animaux</span> </a>
+                    <a href="/backend/animaux.table/animaux.php"><span class="label-item"> Les animaux</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-list-check" title="Services"></i></span>
-                    <a href="/sevices-bdd.php/servicebdd.php"><span class="label-item">Services</span> </a>
+                    <a href="/backend/sevices-bdd.php/servicebdd.php"><span class="label-item">Services</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-user-nurse" title="Rapport vétérinaire"></i></span>
@@ -46,7 +46,7 @@
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-calendar-days" title="Réglage"></i></span>
-                    <a href="/les-horaire-du-zoo/zoo-horaire.php"><span class="label-item">Hohaire du zoo</span> </a>
+                    <a href="/backend/les-horaire-du-zoo/zoo-horaire.php"><span class="label-item">Hohaire du zoo</span> </a>
                 
                 </li>
                 <li class="sidebar-list-item">
