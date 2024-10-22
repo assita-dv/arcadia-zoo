@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/table.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -48,10 +48,10 @@
         <td><?= htmlspecialchars($row['nom']) ?></td>
         <td><?= htmlspecialchars($row['description_servces']) ?></td> <!-- Correction ici -->
         <td>
-            <a href="modifiservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='/images/images/write.png' alt='Modifier'></a>
+            <a href="modifiservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/write.png' alt='Modifier'></a>
         </td>
         <td>
-            <a href="deleteservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='/images/images/remove.png' alt='Supprimer'></a>
+            <a href="deleteservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/remove.png' alt='Supprimer'></a>
         </td>
     </tr>
     <?php 

@@ -68,7 +68,7 @@ $conn->close();
         <input type="text" name="habitat_id" value="<?= htmlspecialchars($row['habitat_id']) ?>" placeholder="habitat_id" required>
         
         <input type="submit" value="Modifier" name="send">
-        <a class="link black" href="/animaux.table/animaux.php">Annuler</a> 
+        <a class="link black" href="../animaux.table/animaux.php">Annuler</a> 
     </form>
     <?php } else { ?>
         <p>Erreur : Aucun animal à modifier.</p>

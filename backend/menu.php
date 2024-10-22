@@ -22,7 +22,7 @@
             <ul class="sidebar-list">
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-table-columns" title="Tableau de bord"></i></span>
-                    <a href="/index.php"><span class="label-item ">Tableau de bord</span> </a>
+                    <a href="/backend/dashbord.php"><span class="label-item ">Tableau de bord</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-chart-line" title="classification"></i></span>
