@@ -63,29 +63,29 @@
         <div class="box">
             <img src="/images/proquet.jpg" alt="">
             <div class="content">
-               <h3>Peroquet</h3>
-               <a href="#" class="btn btn-success me-md-2">plus en datail</a>
+               <h3>Perroquet</h3>
+               <a href="poco.php" class="btn btn-success me-md-2">plus en datail</a>
             </div>
         </div>
         <div class="box">
-            <img src="/images/autriche.jpg" alt="">
+            <img src="/images/bufle.jpg" alt="">
             <div class="content">
-               <h3>Autriche</h3>
-               <a href="#" class="btn btn-success me-md-2 text-center ">plus en datail</a>
+               <h3>Buffle</h3>
+               <a href="bufle.php" class="btn btn-success me-md-2 text-center ">plus en datail</a>
             </div>
         </div>
         <div class="box">
-            <img src="/images/lama.jpg" alt="">
+            <img src="/images/jungle/gorille de l'est.jpg" alt="">
             <div class="content">
-               <h3>Lama</h3>
-               <a href="#" class="btn btn-success me-md-2">plus en datail</a>
+               <h3>Gorille</h3>
+               <a href="gorille.php" class="btn btn-success me-md-2">plus en datail</a>
             </div>
         </div>
         <div class="box">
             <img src="/images/lemurans.jpg" alt="">
             <div class="content">
-               <h3><Leg>Lemurans</Leg></h3>
-               <a href="#" >
+               <h3><Leg>Lémuriens</Leg></h3>
+               <a href="lemur.php" >
                <button type="button" class="btn btn-success me-md-2 ">plus en datail</button>
             </a>
         </div>
@@ -170,6 +170,7 @@
                          !</p>
                     </div>
                     
+                    <a href="avis-visiteur.php"><button type="button" class="btn btn-secondary btn-lg">Laisse un avis</button></a>
                 </div>
             </div>
         </div>

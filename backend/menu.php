@@ -22,7 +22,7 @@
             <ul class="sidebar-list">
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-table-columns" title="Tableau de bord"></i></span>
-                    <a href="/backend/dashbord.php"><span class="label-item ">Tableau de bord</span> </a>
+                    <a href="/backend/dashboardAmin.php"><span class="label-item ">Tableau de bord</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-chart-line" title="classification"></i></span>
@@ -31,6 +31,10 @@
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-users-gear" title="Les employée"></i></span>
                    <a href="/backend/User/showUser.php"><span class="label-item"> Les employée</span> </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <span><i class="fa-solid fa-plate-wheat" title="L'alimentation"></i></span>
+                   <a href="/backend/User/alimentation.php"><span class="label-item"> L'alimentation animaux</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-hippo" title="Animaux"></i></span>
@@ -55,7 +59,7 @@
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-message" title="Avis de visiteurs"></i></span>
-                    <span class="label-item">Avis de visiteurs</span> 
+                    <a href="/backend/avis-avis/avis.php"><span class="label-item">Avis de visiteurs</span> </a>
                 </li>
             </ul>
         </aside>
