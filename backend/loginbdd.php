@@ -1,3 +1,8 @@
+
+
+
+
+
 <?php
 // Inclure la connexion à la base de données
 include_once "connect_ddb.php";
@@ -17,25 +22,38 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Récupérer les informations de l'utilisateur
         $row = mysqli_fetch_assoc($result);
 
-// Comparer le mot de passe directement si c'est en clair (uniquement pour les tests)
-if ($password == $row['password']) {
-    // Connexion réussie
-    session_start();
-    $_SESSION['user_id'] = $row['utilisateur_id'];
-    header("Location: dashboardAmin.php");
-    exit();
-    
-} else {
-    // Mot de passe incorrect
-    echo "Mot de passe incorrect";
-}
+        // Comparer le mot de passe directement si c'est en clair (uniquement pour les tests)
+        if ($password == $row['password']) {
+            // Connexion réussie
 
-} 
-}else {
-  
+            // Initialiser la session
+            session_start();
+            $_SESSION['user_id'] = $row['utilisateur_id'];
+
+            // Récupérer le rôle de l'utilisateur
+            $role = $row['role'];
+
+            // Redirection en fonction du rôle
+            if ($role == 'admin') {
+                
+                header("Location: ../backend/dashboardAmin.php");
+
+
+            } elseif ($role == 'employée') {
+                header("Location: /backend/employee/services-db-emp.php");
+
+
+            } elseif ($role == 'vétérinaire') {
+                header("Location: dashboardVeterinaire.php");
+            }
+            exit();
+        } else {
+            // Mot de passe incorrect
+            echo "Mot de passe incorrect";
+        }
+    } else {
         // L'utilisateur n'a pas été trouvé
         echo "Utilisateur non trouvé";
     }
-
+}
 ?>
-

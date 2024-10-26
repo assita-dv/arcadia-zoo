@@ -1,13 +1,13 @@
 
 
-
+<!--
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horaires du Zoo Arcadia</title>
-    <link rel="stylesheet" href="../css/style.css"> <!-- Inclure tes fichiers CSS si besoin -->
+    <link rel="stylesheet" href="../css/style.css">  Inclure tes fichiers CSS si besoin 
 </head>
 <body>
     <h1>Consulter les horaires du Zoo Arcadia</h1>
@@ -26,3 +26,4 @@
     </form>
 </body>
 </html>
+-->

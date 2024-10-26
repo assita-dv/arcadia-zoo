@@ -49,10 +49,10 @@ require "../menu.php";
             <td><?=$row['username']?></td>
             <td><?=$row['nom']?></td>
             <td>
-                <a href="modifyUser.php?username=<?=$row['username']?>"><img src='../images/images/write.png' alt='Modifier'></a>
+                <a href="modifyUser.php?username=<?=$row['username']?>"><img src='../images/images/write.png' style="width: 35px;" alt='Modifier'></a>
             </td>
             <td>
-                <a href="deleteUser.php?username=<?=$row['username']?>"><img src='../images/images/remove.png' alt='Supprimer'></a>
+                <a href="deleteUser.php?username=<?=$row['username']?>"><img src='../images/images/remove.png' style="width: 35px;" alt='Supprimer'></a>
             </td>
         </tr>
         <?php 

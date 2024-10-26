@@ -48,10 +48,10 @@
         <td><?= htmlspecialchars($row['nom']) ?></td>
         <td><?= htmlspecialchars($row['description_servces']) ?></td> <!-- Correction ici -->
         <td>
-            <a href="modifiservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/write.png' alt='Modifier'></a>
+            <a href="modifiservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/write.png' style="width: 35px;" alt='Modifier'></a>
         </td>
         <td>
-            <a href="deleteservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/remove.png' alt='Supprimer'></a>
+            <a href="deleteservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/remove.png' style="width: 35px;" alt='Supprimer'></a>
         </td>
     </tr>
     <?php 

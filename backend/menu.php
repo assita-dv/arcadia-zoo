@@ -50,7 +50,7 @@
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-calendar-days" title="Réglage"></i></span>
-                    <a href="/backend/les-horaire-du-zoo/zoo-horaire.php"><span class="label-item">Hohaire du zoo</span> </a>
+                    <a href="../backend/les-horaire-du-zoo/zoo-horaire.php"><span class="label-item">Hohaire du zoo</span> </a>
                 
                 </li>
                 <li class="sidebar-list-item">

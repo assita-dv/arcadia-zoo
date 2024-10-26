@@ -51,7 +51,7 @@ require "../menu.php";
                                 <td><?= htmlspecialchars($row['heure_ouverture']) ?></td>
                                 <td><?= htmlspecialchars($row['heure_fermeture']) ?></td>
                                 <td>
-                                    <a href="modifier_horaire.php?jour_semaine=<?= $row['jour_semaine'] ?>"><img src='../images/images/write.png' alt='Modifier'></a>
+                                    <a href="modifier_horaire.php?jour_semaine=<?= $row['jour_semaine'] ?>"><img src='../images/images/write.png' style="width: 35px;" alt='Modifier'></a>
                                 </td>
                                 
                             </tr>
