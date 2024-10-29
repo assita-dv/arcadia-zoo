@@ -4,36 +4,8 @@
     box-sizing: border-box;
     font-family: 'Rowdies', cursive;
 }
-.navbar{
-   gap: 10px;
-    height: 80px;
-    margin: 20px;
-    border-radius: 16px;
-    padding: 0.5rem;
-    background-color:#265034 ;
-    position: fixed;
-}
-.navbar-brand {
-    font-weight: 500;
-    color: #fff;
-    font-size: 24px;
-    transition: 0.3s color;
-}
-.navbar-nav .nav-link{
-    color: #fff;
-    padding: 25px;
-    margin: 10px;
-    text-align: center;
-   left: 45px;
-   position: relative;
 
-}
-.icon-left i{
-   margin-left:  750px;
-    font-size: 25px;
-    color: #fff;
-}
-.body-employe{
+.body-compterendus{
     /*display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +13,7 @@
      min-height: 100vh;
     width: 100%;
     */
-    background-image: url(/images/lionn.jpg);
+    background-color: #0b190b;
     background-size: cover;
    /* filter: brightness(0.7);*/
     width: 100%;

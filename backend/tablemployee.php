@@ -23,11 +23,11 @@ require "menu.php";
 
 
 <!-- end section menu right -->
-    <!-- end section menu right -->
+    <!-- end section menu right
  <section class="container">
             <div class="row g-0 text-center">
               <div class="col-12">
-             <table class="table" data-toggle="table" data-search="true"><!---->
+             <table class="table" data-toggle="table" data-search="true">
       <thead>
         <tr>
           <th data-sortable="true" data-field="nom"> Nom Prenom</th>
@@ -76,7 +76,7 @@ require "menu.php";
         </tr>
       </tbody>
 
-</section>
+</section> -->
 <!-- end section menu right -->
 
 

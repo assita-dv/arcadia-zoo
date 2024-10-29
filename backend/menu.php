@@ -34,7 +34,7 @@
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-plate-wheat" title="L'alimentation"></i></span>
-                   <a href="/backend/User/alimentation.php"><span class="label-item"> L'alimentation animaux</span> </a>
+                   <a href="/backend/User/aliment_table.php"><span class="label-item"> L'alimentation animaux</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-hippo" title="Animaux"></i></span>

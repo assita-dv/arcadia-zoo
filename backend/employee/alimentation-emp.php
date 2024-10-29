@@ -22,12 +22,12 @@ require "header-dashboard.php";
 <!-- start table alimentation -->
 <h1 class="ajouter-c">Ajouter une consommation de nourriture pour un animal</h1>
     
-    <form action="ajouter_alimentation.php" method="post">
+    <form action="add-aliment.php" method="post">
         <label for="animal_id">Sélectionner un animal :</label>
         <select name="animal_id" required>
             <!-- Remplir dynamiquement la liste des animaux -->
             <?php
-            include_once "../connect_ddb.php";
+            include "../connect_ddb.php";
             $sql = "SELECT animal_id, prenom FROM animals";
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) {
@@ -49,7 +49,7 @@ require "header-dashboard.php";
         <input type="time" name="heure" required>
 
         <input type="submit" value="Ajouter">
-        <a class="link black" href="/backend/dashboardAmin.php">Annuler</a>
+        <a class="link black" href="/backend/employee/alimentation-emp.php">Annuler</a>
     </form>
 
 </body>

@@ -25,7 +25,7 @@
 
         <label for="nourriture">Nourriture :</label>
         <input type="text" name="nourriture" required>
-
+       
         <label for="quantite">Quantité :</label>
         <input type="number" name="quantite" step="0.01" required>
 
@@ -35,8 +35,11 @@
         <label for="heure">Heure :</label>
         <input type="time" name="heure" required>
 
+        <label for="employe_id">employe ID :</label>
+        <input type="email" name="employe_id" required>
+
         <input type="submit" value="Ajouter">
-        <a class="link black" href="/backend/dashboardAmin.php">Annuler</a>
+        <a class="link black" href="/backend/User/aliment_table.php">Annuler</a>
     </form>
 </body>
 </html>

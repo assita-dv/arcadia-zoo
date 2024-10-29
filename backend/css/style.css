@@ -45,7 +45,7 @@
  /* ##### header ###### */
  .header {
    position: fixed;
-   width:1350px ;
+   width:1340px ;
    left: 180px;
   grid-area:auto;
   height: 70px;
@@ -90,7 +90,7 @@
    list-style-type: none;
 }
 .sidebar-list-item{
-   padding:23px;
+   padding:18px;
    transition: .3s ease-in;
 }
 .sidebar-list-item:hover{
