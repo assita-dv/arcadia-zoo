@@ -1,8 +1,5 @@
 
 
-
-
-
 <?php
 // Inclure la connexion à la base de données
 include_once "connect_ddb.php";
@@ -44,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
             } elseif ($role == 'vétérinaire') {
-                header("Location: dashboardVeterinaire.php");
+                header("Location: /backend/veterinaire/accueil-veterinaire.php");
             }
             exit();
         } else {
@@ -55,5 +52,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // L'utilisateur n'a pas été trouvé
         echo "Utilisateur non trouvé";
     }
+}
+?>
+<?php
+// Affiche un message si la déconnexion a été réussie
+if (isset($_GET['message']) && $_GET['message'] === 'deconnexionReussie') {
+    echo "<p>Vous vous êtes déconnecté avec succès.</p>";
 }
 ?>

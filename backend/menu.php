@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
    <!-- <link rel="stylesheet" href="css/table.css">-->
+   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
@@ -44,9 +46,25 @@
                     <span><i class="fa-solid fa-list-check" title="Services"></i></span>
                     <a href="/backend/sevices-bdd.php/servicebdd.php"><span class="label-item">Services</span> </a>
                 </li>
-                <li class="sidebar-list-item">
+                <!-- rapport habitat -->
+                <li class="nav-item dropdown">
+                <i class="fa-solid fa-user-nurse" title="Rapport vétérinaire"></i>
+              <a class="nav-link dropdown-toggle" href="veterinaire-aliment-anim.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Rapport vétérinaire
+              </a>
+                 <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../backend/admin/rapport_table_animaux.php"></a>Rapport Animaux</li>
+          </ul>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../backend/veterinaire/table-comptes-rendu.php"></a>Rapport Habitat</li>
+          </ul>
+        </li>
+                 <!-- fin rapport habitat -->
+                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-user-nurse" title="Rapport vétérinaire"></i></span>
-                    <span class="label-item">Rapport veterinaire</span> 
+                    <a href="../backend/admin/rapport_table_animaux.php"><span class="label-item">Rapport vétérinaire</span> </a>
+                
+                    <span class="label-item"></span> 
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-calendar-days" title="Réglage"></i></span>
@@ -63,3 +81,5 @@
                 </li>
             </ul>
         </aside>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>

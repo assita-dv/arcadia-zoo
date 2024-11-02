@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Récupérer les données du formulaire
     $animal_id = filter_var($_POST['animal_id'], FILTER_SANITIZE_NUMBER_INT);
     $date_rapport = filter_var($_POST['date_rapport'], FILTER_SANITIZE_SPECIAL_CHARS);
-    $username = filter_var($_POST['username'], FILTER_SANITIZE_SPECIAL_CHARS);
+    $username = filter_var($_POST['username'], FILTER_SANITIZE_EMAIL);
     $detail = filter_var($_POST['detail'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
     // Préparer la requête d'insertion
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Exécuter la requête et vérifier le succès
     if ($sql->execute()) {
-        header("location:comptesRendus.php?message=Success");
+        header("location:table-comptes-rendu.php?message=Success");
        /* echo "Compte rendu ajouté avec succès.";*/
     } else {
         echo "Erreur lors de l'ajout du compte rendu : " . $conn->error;
@@ -45,11 +45,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter un Compte Rendu</title>
     <!--<link rel="stylesheet" href="/backend/css/dashboard.css">-->
-    <link rel="stylesheet" href="/backend/css/veterinaire.css">
+    <link rel="stylesheet" href="../css/veterinaire.css">
 </head>
 <body class="body-compterendus">
-<?php /**/include "../employee/header-dashboard.php"; ?>
-
+    <header>
+<?php include "../veterinaire/header_veterinaire.php"; ?>
+</header>
 <main class="main_container">
     <h2>Ajouter un Compte Rendu</h2>
     <form action="" method="post">
@@ -69,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="date" name="date_rapport" id="date_rapport" required><br><br>
 
         <label for="username">Nom d'utilisateur :</label>
-        <input type="text" name="username" id="username" required><br><br>
+        <input type="email" name="username" id="username" required><br><br>
 
         <label for="commentaire">Commentaire :</label>
         <textarea name="detail" id="commentaire" rows="5" required></textarea><br><br>

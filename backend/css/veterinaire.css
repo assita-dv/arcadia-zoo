@@ -5,17 +5,130 @@
     font-family: 'Rowdies', cursive;
 }
 
+/* start section accueil vétérinaire */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-image: url(/images/accueil-veterinaire1.jpg);
+  background-size: cover;
+}
+
+.header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+ /* */padding: 10px;
+  text-align: center;
+  border-radius: 500px;
+  width: 500px; 
+  margin-top: 60px;
+}
+
+.header h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  padding: 20px;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+}
+
+.welcome-image {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text h2 {
+  font-size: 1.8em;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.welcome-text p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* end section accueil vétérinaire */
+
+/* start section navbar veterinaire */
+.navbar{
+    background-color: #265034;
+    gap: 10px;
+     height: 80px;
+     margin: 20px;
+     border-radius: 16px;
+     padding: 0.5rem;
+     position: fixed;
+     width: 200vh;
+ }
+ .navbar-brand {
+     font-weight: 500;
+     color: #fff;
+     font-size: 24px;
+     transition: 0.3s color;
+     text-decoration: none;
+     text-align: center;
+
+ }
+ .navbar-nav .nav-link{
+     color: #fff;
+    padding: 25px;
+     margin: 10px;
+     text-align: center;
+   
+   /* position: relative;;*/
+    text-decoration: none;
+ 
+ }
+ .collapse{
+      margin-left: 250px;
+ }
+ .navbar-nav i{
+    margin-left:  280px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+ }
+.body_comt_habitat{
+     background-image: url(/images/flamarose.jpg);
+     background-size: cover;
+ 
+ }
+/* end section navbar */
 .body-compterendus{
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     min-height: 100vh;
-    width: 100%;
-    */
-    background-color: #0b190b;
+    background-image: url(/images/lion-28.jpg);
     background-size: cover;
-   /* filter: brightness(0.7);*/
+    width: 100%;
+    height: 100vh;
+
+}
+.body-veteri-aliment{
+    background-image: url(/images/renard.jpg);
+    background-size: cover;
     width: 100%;
     height: 100vh;
 
@@ -51,7 +164,9 @@
     border-radius: 6px;
     font-size: 14px;
     margin-left: 600px;
-    margin-top: 80px;
+    margin-top: 70px;
+    margin-block-end: 70px;
+
 }
 form input {
     margin: 8px 0;
@@ -130,3 +245,32 @@ th , td {
     color: #fff;
     text-align: center;
  }
+ /* start section table commentaire habitat veterinaire */
+ .body_commentaire_thabitat{
+  background-image: url(/images/tigre-blanc.jpg);
+  background-size: cover;
+ }
+ /* fin section table commentaire habitat veterinaire */
+
+ /* start section table comptrendus animaux veterinaire */
+ .body_animaux_comptrendu{
+  background-image: url(/images/sebre2.jpg);
+  background-size: cover;
+ }
+ /* fin section table comptrendus animaux veterinaire */
+
+ /* start ajout commentaire habitat h2 */
+ .ajoutcommentaire-p{
+ text-align: center;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 50px;
+ 
+ }
+
+ /* Affichage de l'historique d'alimentation*/
+    .historiqaliment p{
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+    }

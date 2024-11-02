@@ -32,7 +32,7 @@
                          <i class="fa-solid fa-envelope"></i>
                         </span>
                         <span class="material">
-                            <i class="fa-regular fa-circle-user"></i>
+                           <a href="http://localhost/logout.php"><i class="fa-regular fa-circle-user"></i>deconnexion</a> 
                             </span>
             </div>               
             
