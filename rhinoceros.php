@@ -34,7 +34,7 @@
 </div>
     <div class="row fram-space-before-medium fram-space-after-extra-large">
         <div class="col-lg-8">
-   <img src="/savane/rhinocéros noir.jpg"  style="width: 700px; height: 500px; margin-top: 30px;"alt=""  >
+   <img src="/savane/rhinocéros noir.jpg"  style="width: 85%; height: 60%; margin-top: 30px;"alt=""  >
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
