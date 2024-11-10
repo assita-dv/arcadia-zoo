@@ -57,7 +57,7 @@ $conn->close();
     <title>Gestion des Services</title>
     <link rel="stylesheet" href="/backend/css/dashboard.css">
 </head>
-<body>
+<body class="service_body_emp">
 <?php 
 require "header-dashboard.php";
 ?> 

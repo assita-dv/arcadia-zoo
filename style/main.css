@@ -1,12 +1,20 @@
 /*# sourceMappingURL=main.css.map 
 
 @import 'custom'; */
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif ;
+ } 
 .header{
     background-color: #212D25;
 }
 body{
     background: #212D25;
+    width: 100%;
+    height: 100%;
+
 }
 /* start section navbar*/
 
@@ -17,6 +25,7 @@ body{
     border-radius: 16px;
     padding: 0.5rem;
 }
+
 .navbar-brand {
     font-weight: 500;
     color:#fff;
@@ -55,11 +64,65 @@ body{
 .nav-link:hover, .nav-link.active{
     color: #ff9408;
 }
+
+
+/* START SECTION RESPONSIVE D'ACCEUIL */
+
+    /* Styles pour les téléphones */
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 14px;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .home p{
+        color: #fff;
+        font-size: 40px;
+    }
+    /* autres ajustements pour mobiles */
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    .content {
+        padding: 20px;
+    }
+    /* autres ajustements pour tablettes */
+}
+
+/* Styles pour les écrans larges (ordinateur) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+    .content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    /* autres ajustements pour ordinateur */
+}
+
+/* AND SECTION RESPONSIVE D'ACCEUIL */
+
+
 @media (min-width: 991px){
 .nav-link{
      color: #fff;
   }
 }
+/*  ajustements pour iphone */
+@media (min-width: 430px) and (max-width: 599px) {
+    .navbar{
+     left: 30px;
+     width: 410px;
+    }
+}
+
 @media (min-width: 991px){
   .nav-link::before{
     content: "";
@@ -92,7 +155,7 @@ body{
   }
 /* end section navbar*/
 
-/* home page*/
+/* home page acceuil */
 .hero-about{
     position: relative;
     &::before{
@@ -105,7 +168,7 @@ body{
         background-image: url(../images/accueill.jpg);
         background-size: cover;
         filter: brightness(0.7);
-       
+    
     }
 
     *{
@@ -120,317 +183,605 @@ body{
         align-items: center;
         justify-content: center;
     }
+    .hero-about-content p{
+      font-size: 25px;
+    }
+}
+ 
+/* Styles pour les tablettes */
+.hero-about {
+    position: relative;
+    /* Image de fond couvrant toute la section avec opacité ajustée */
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/accueill.jpg);
+        background-size: cover;
+        background-position: center;
+        filter: brightness(0.7);
+    }
+
+    * {
+        /* Positionne les éléments devant l'image de fond */
+        position: relative;
+    }
+
+    .hero-about-content {
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px; 
+        text-align: center;
+    }
+
+    .hero-about-content p {
+        font-size: 1.5em; 
+        color: #ffffff;
+    }
+}
+/* start section acceuil du zoo */
+
+/* Responsive pour l'acceil */
+/* Responsive pour les tablettes */
+@media (max-width: 992px) {
+    .hero-about .hero-about-content {
+        height: 600px; /* Réduit la hauteur pour les tablettes */
+    }
+    .hero-about .hero-about-content p {
+        font-size: 1.3em; /* Réduit légèrement la taille de la police */
+    }
 }
 
-/* end home page*/
+/* Responsive pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    .hero-about .hero-about-content {
+        height: 500px; /* Réduit davantage la hauteur pour les petits écrans */
+        padding: 0 15px;
+    }
+    .hero-about .hero-about-content p {
+        font-size: 1.1em; /* Réduit encore la taille de la police */
+    }
+}
 
-/* start section about*/
-
+/* Responsive pour les très petits écrans (petits smartphones) */
+@media (max-width: 480px) {
+    .hero-about .hero-about-content {
+        height: 400px; /* Ajuste la hauteur pour s'adapter aux petits écrans */
+        padding: 0 10px;
+    }
+    .hero-about .hero-about-content p {
+        font-size: 1em; /* Plus petite police pour plus de lisibilité */
+    }
+}
+/* section presentation */
 #about {
-width: 100%;
-height: 100%;
-   
+    width: 100%;
+    padding: 50px 0;
 }
-#about .container{
-    padding-top: 70px;
+
+#about .container {
+    padding-top: 20px;
 }
-.heading{
+
+.heading {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-#about .card{
+#about .card {
     border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
-#about .card img{
-    border-radius: 15px;
+
+#about .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
-#about-btn{
+
+#about h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#about p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#about-btn {
     width: 200px;
-    height: 36px;
+    height: 40px;
     background: transparent;
     border: 2px solid #ff9408;
     color: #fff;
     border-radius: 15px;
     font-weight: bold;
-    transition: 0.5s;
+    transition: 0.3s;
     cursor: pointer;
+    margin-top: 15px;
 }
-#about-btn:hover{
+
+#about-btn:hover {
     background-color: #ff9408;
     color: #fff;
 }
-@media screen and (max-width: 982px){
-    #about .p{
-        font-size: 8px;
+
+/* Responsive pour tablettes */
+@media (max-width: 768px) {
+    #about .container {
+        padding: 20px;
     }
-}
-@media screen and (max-width: 766px){
-    #about .p{
+
+    #about h2 {
+        font-size: 22px;
+    }
+
+    #about p {
         font-size: 15px;
     }
-    #about{
-        height: 120vh;
+
+    #about-btn {
+        width: 100px;
+        height: 38px;
     }
 }
-/* end section about*/
 
-/* start section animaux*/
-.animaux .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem,1em));
-    gap: 1px ;
-    padding-left: 130px;
-    padding-block-end: 5em;
-    writing-mode: horizontal-tb;
+/* Responsive pour téléphones */
+@media (max-width: 576px) {
+    #about .heading {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #about h2 {
+        font-size: 20px;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    #about-btn {
+        width: 100%;
+        font-size: 14px;
+    }
 }
-.animaux .box-container .box{
-   height: 400px;
+
+/* AND SECTION RESPONSIVE D'ACCEUIL */
+
+/* nouveau section animaux  presentation*/
+/* Style de la section générale */
+.section-bg-color {
+    background-color: #212d25;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Style du texte d'introduction*/
+.section-figure .frame-type-text p.center {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #eee;
+    margin-bottom: 30px;
+} 
+
+/* Container pour les cartes */
+#container-photos4 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style des cartes */
+.section-figure .card {
+    background-color: #3e5342;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    text-align: center;
+}
+
+.section-figure .card:hover {
+    transform: scale(1.05);
+}
+
+
+.section-figure .card .figure {
     position: relative;
+    width: 60vh;
     overflow: hidden;
 }
-.animaux .box-container .box img{
-    height: 100%;
-    width: 80%;
+
+ .section-figure .card .figure img {
+    width: 100%;
+    height: auto;
     object-fit: cover;
-    border-radius: 10px;
-}
-.animaux .box-container .box:hover img{
-    transform: scale(1.1);
-}
-.animaux .box-container .box .content{
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0; right: 0;
-    padding: 20px;
-    z-index:1 ;
-    transition: 0.5s ease;
+    transition: transform 0.5s ease;
 
 }
-.animaux .box-container .box:hover::after{
+
+.section-figure .card .figure:hover img {
+    transform: scale(1.1);
+    background-color: #555;
+}
+
+.gradient-overlay::before {
     content: "";
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background: black;
-    opacity: 0.6;
-    transition: 0.5s ease;
 }
-.animaux .box-container .box .content h3{
-    text-align: center;
-    font-size: 2rem;
-    color: #fff; 
+
+/* Titre et sous-titre*/
+.contente .title {
+    padding: 15px;
+    color: #f39a34;
 }
-.animaux .box-container .box:is(:hover, :focus) .content{
-    transform: translateY(-20px);
+
+.contente h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 10px 0;
+} 
+
+/* Bouton "voir" */
+.btn-inn a {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #212d25;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
-.animaux .box-container .box .content .btn{
-    border-radius: 20px;
-    background-color: #ff9408;
-    align-content: center;
+
+.btn-inn a:hover {
+    background-color: #b55b00;
 }
-.animaux .heading {
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 80px;
+
+/* Responsive pour les écrans de tablettes */
+@media (max-width: 992px) {
+    #container-photos4 .row {
+        grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour les tablettes */
+    }
 }
-/* end section animaux*/
+
+/* Responsive pour les petits écrans */
+@media (max-width: 768px) {
+    #container-photos4 .row {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les petits écrans */
+    }
+
+    .section-figure .card {
+        max-width: 80%; /* Occuper toute la largeur de la grille */
+        margin: auto;
+    }
+}
+
+/* Responsive pour les très petits écrans (smartphones) */
+@media (max-width: 576px) {
+    #container-photos4 .row {
+        grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */
+    }
+    
+    .section-figure .card {
+        max-width: 80%; /* Occuper toute la largeur de la grille */
+    }
+}
 
 /* start section services*/
-.service .container{
-    min-height: 100vh;
-    width: 100%;
-}
-.sevice-zoo{
-    padding: 5% 8%;
-}
-.services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.service h5{
+/* Style général de la section review */
+
+.service h5 {
+    font-size: 2rem;
     color: #fff;
-    font-size: 3rem;
-
-
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 70px;
 }
-.service .cards{
+.service h4{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+/* Container des cartes */
+.service .cards {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    margin-top: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0 auto;
+    max-width: 1100px;
 }
-.service .card{
-    height: 350px;
-    width: 370px;
+
+/* Style des cartes */
+.service .card {
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: #265034;
-    padding: 3%;
-    border-radius: 8px;
     transition: .6s;
     display: flex;
-    align-items: center;
     flex-direction: column;
     position: relative;
     overflow: hidden;
 }
-.service .card:hover{
-    
+
+.service .card:hover {
     transform:rotateY(-8px);
     background-color: transparent;
     border-color: #ff9408;
-  
 }
+
+.services i {
+    color: #ff9408;
+    margin-right: 3px;
+    font-size: 2.2rem;
+    align-content: center;
+    text-align: center;
+}
+
+/* Texte des avis */
+.service .card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Bouton pour laisser un avis*/
+.btn-avis {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3e5342;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+ 
 .service .card:hover::after{
     width: 225%;
     top: -100%;
 }
-.service .card p{
-    text-align: center;
-    width: 100%;
-    margin: 12px 0;
-    color: #fff;
-}
-.service .card i{
-    color: #ff9408;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 50px;
 
-}
-.service .card h4{
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
+.btn-avis:hover {
+    background-color: #ff9408;
+    transform: translateY(-3px);
+} 
 
-}
 
-@media screen and (max-width: 766px){
-
-    .service .card{
-        grid-template-columns: repeat(2,fr);
+/* Responsive pour les petits écrans */
+@media (max-width: 768px) {
+    .service .cards {
+        grid-template-columns: 1fr; /* Une seule colonne pour les petits écrans */
+        gap: 15px; /* Réduit l'espace entre les cartes */
+    }
+    .service h5 {
+        font-size: 1.5rem; 
+    }
+    .service h4 {
+        font-size: 1.2rem;
+    }
+    .service .card {
+        padding: 15px; 
+        font-size: 0.9rem; 
+        width: 80%;
+        margin: auto;
+    }
+    .service .card p {
+        font-size: 0.9rem; 
+    }
+    .btn-avis {
+        padding: 10px 20px; /* Réduit le padding du bouton */
+        font-size: 1rem; /* Diminue la taille de la police du bouton */
     }
 }
-/* end section services*/
 
-/* start section review */
+/* end section services zoo */
 
-.review {
-    min-height: 100vh;
+/* start section etoile avis  */
+/* Style général pour le carousel */
+.carousel {
+    background: #3e5342;
     width: 100%;
-    
+    max-width: 600px; /* Ajuste la largeur maximale */
+    margin: auto; /* Centre le carousel */
+    padding: 20px;
 }
-.review-zoo{
-    padding: 5% 8%;
+
+/* Style pour les légendes du carousel */
+.carousel-caption {
+    position: static; /* Garde la légende en position relative */
+    padding: 10px;
+    text-align: center;
 }
-.reviews{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/* Style de l'image dans le carousel */
+.carousel .carousel-inner .img-fluid {
+    border-radius: 70%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
-.review h5{
+
+/* Styles de l'alignement des étoiles et du texte */
+.carousel .carousel-inner i {
+    color: #ff9408;
+    margin-top: 0;
+}
+
+.carousel .carousel-inner h5 {
     color: #fff;
-    font-size: 3rem;
-
-
+    font-size: 1.2rem;
 }
-.review .cards{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    margin-top: 80px;
-}
-.review .card{
-    height: 350px;
-    width: 370px;
-    background-color: #457154;
-    padding: 3%;
-    border-radius: 8px;
-    transition: .6s;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-}
-.review .card:hover{
-    
-    transform:rotateY(-8px);
-    background-color: transparent;
-    border-color: #ff9408;
+.carousel-avis h3{
+   color: #fff;
+   text-align: center;
   
 }
-.review .card:hover::after{
-    width: 225%;
-    top: -100%;
+
+.carousel .carousel-inner p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    padding: 0 15px;
 }
-.review .card p{
-    text-align: center;
-    width: 100%;
-    margin: 12px 0;
-    color: #fff;
+/* Styles de base */
 
-    
-
-
-}
-.review img{
-    border-radius: 80%;
-    width: 130px;
-    height: 80px;
-}
- .review .starta i{
-    display: flex;
-    color: #ff9408;
-    margin-top: 20px;
-
-}
-
-@media screen and (max-width: 766px){
-
-    .review .card{
-        grid-template-columns: repeat(2,fr);
+/* Responsive pour les tablettes */
+@media (max-width: 1024px) {
+    .carousel {
+        width: 90%; /* Prend plus de largeur sur les tablettes */
+        margin: 10px auto 40px;
+    }
+    .carousel .carousel-inner p {
+        font-size: 14px;
     }
 }
 
-/* end section review */
+/* Responsive pour les petits écrans (smartphones) */
 
+/* Responsive pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    .carousel {
+        padding: 10px;
+        width: 80%;
+        height: 50%;
+    }
+    .carousel .carousel-inner h5,
+    .carousel .carousel-inner p {
+        font-size: 0.7rem; /* Réduit la taille des textes */
+    }
+    .carousel-caption {
+        padding: 5px; /* Réduit le padding pour éviter l'accumulation */
+    }.carousel-indicators{
+        width: 50px;
+        left: 30%;
+        
+     }
 
-/* start section contact */
+}
+
+/* end section review avis */
+/* START SECTION CONTACT ZOO ARCADIA */
 .contact-form {
-    width: 100%;
-    height: 100%;
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-.heading-contact{
-    font-size: 34px;
-    color: #fff;
-    margin-bottom: 120px;
-    text-align: center;
-    padding-top: 50px;
-}
-.form-origin{
-    width: 100%;
-    height: 100%;
-    background-color: #265034;
-    padding: 50px 50px;
+    background-color: #fff;
+    width: 70vh;
+    max-width: 400px;
+    padding: 20px;
     border-radius: 8px;
-    right: 30px;
-    margin-left: 20em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: auto; /* Centre le formulaire */
+    margin-top: 110px;
 }
 
-/* end section contact*/
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f39a34;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #d48229;
+}
+
+/* Responsive pour les petits écrans */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 70%; 
+        max-width: 100%; /* Enlève la limite de largeur pour occuper l'espace disponible */
+        padding: 15px; /* Réduit le padding pour plus de compacité */
+    }
+    .contact-form h2 {
+        font-size: 1.5rem; 
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        padding: 8px; 
+        font-size: 14px; 
+    }
+    .contact-form button {
+        padding: 8px; 
+        font-size: 14px; 
+    }
+}
+
+/* END SECTION CONTACT ZOO ARCADIA */
+/* start section tout les animaux */
+/* presentation*/
 .tout-about{
     position: relative;
     &::before{
@@ -490,6 +841,41 @@ height: 100%;
         justify-content: center;
     }
 }
+/*section responsive jungle*/
+/* Responsive pour les tablettes */
+@media (max-width: 992px) {
+    .jungle-about .jungle-about-content {
+        height: 500px; 
+    }
+    .heading-jungle {
+        font-size: 14px; 
+    }
+}
+
+/* Responsive pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    .jungle-about .jungle-about-content {
+        height: 400px; 
+        padding: 0 15px;
+    }
+    .tout-about-content h1{
+        font-size: 16px;
+    }
+    .tout-about-content h5{
+        font-size: 16px;
+    }
+}
+
+/* Responsive pour les très petits écrans (petits smartphones) */
+@media (max-width: 480px) {
+    .jungle-about .jungle-about-content {
+        height: 300px; 
+        padding: 0 10px;
+    }
+    .heading-jungle {
+        font-size: 12px; 
+    }
+}
 /* end section home jungle */
 #about-j{
     width: 100%;
@@ -509,9 +895,12 @@ height: 100%;
     
     #about-j .card{
         border-radius: 10px;
+        width: 80%;
+        margin: auto;
     }
     #about-j .card img{
         border-radius: 15px;
+      
     }
     
     @media screen and (max-width: 982px){
@@ -521,15 +910,18 @@ height: 100%;
     }
     @media screen and (max-width: 766px){
         #about .p{
-            font-size: 10px;
+            font-size: 8px;
         }
         #about{
             height: 120vh;
         }
+        .heading-jungle p{
+            font-size: 11px;
+        }
     }
     /* end section about*/
 
-    /* section animaux jungle */
+    /* section animaux jungle*/
 
     .animaux-j{
         color: #fff;
@@ -569,9 +961,73 @@ height: 100%;
 }
 .card-body{
     background-color: #265034;
+} 
+/* responsive animaux jungle */
+/* Responsive pour les tablettes */
+@media (max-width: 992px) {
+    .animaux-j {
+        padding: 20px; 
+    }
+
+    #blogs .heading-2 {
+        font-size: 25px; 
+    }
+
+    .blogs-btn {
+        width: 200px; 
+        font-size: 18px;
+    }
 }
 
-/* end page jungle */
+/* Responsive pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+  
+    #blogs .row{
+         padding-right: 30px; 
+         gap: 20px;
+    }
+    .heading-2  h2{
+        text-align: center;
+    }
+    #blogs .heading-2 {
+        font-size: 20px; 
+    }
+
+    #blogs .container {
+        margin-top: 40px;
+        padding-top: 50px; /* Espacement réduit */
+       
+    }
+
+    .blogs-btn {
+        width: 180px;
+        font-size: 16px;
+        height: 28px; /* Taille plus petite du bouton */
+    }
+}
+
+/* Responsive pour les très petits écrans (petits smartphones) */
+@media (max-width: 480px) {
+    .animaux-j {
+        padding: 10px;
+    }
+
+    #blogs .heading-2 {
+        font-size: 18px; /* Réduction de la taille de police pour les très petits écrans */
+    }
+
+    .blogs-btn {
+        width: 150px;
+        font-size: 14px;
+        height: 26px; 
+    }
+
+    #blogs h5 {
+        font-size: 14px; 
+    }
+}
+
+/* end animaux page jungle */
 
 /* start page marais */
 
@@ -602,8 +1058,47 @@ height: 100%;
         align-items: center;
         justify-content: center;
     }
+}/* Responsive pour les tablettes */
+@media (max-width: 992px) {
+   
+    .marais-about .marais-about-content {
+        height: 500px; 
+    }
+    .heading-marais {
+        font-size: 14px; 
+    }
+    .heading-marais p{
+        font-size: 12px;
+    }
+    .heading-marais .row {
+     width: 80%;
+     margin: auto;
+    }
+}
+
+/* Responsive pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    .marais-about .marais-about-content {
+        height: 400px; 
+        padding: 0 15px;
+    }
+    .heading-marais {
+        font-size: 13px; 
+    }
+}
+
+/* Responsive pour les très petits écrans (petits smartphones) */
+@media (max-width: 480px) {
+    .marais-about .marais-about-content {
+        height: 300px; 
+        padding: 0 10px;
+    }
+    .heading-marais {
+        font-size: 12px; 
+    }
 }
 /* end section home marais */
+/* responsive marais */
 .animaux-m{
     color: #fff;
     font-weight: bold;
@@ -632,20 +1127,7 @@ height: 100%;
     #about-m .card img{
         border-radius: 15px;
     }
-    
-    @media screen and (max-width: 982px){
-        #about .p{
-            font-size: 8px;
-        }
-    }
-    @media screen and (max-width: 766px){
-        #about .p{
-            font-size: 10px;
-        }
-        #about{
-            height: 120vh;
-        }
-    }
+   
     /* end section about*/
     /* section animaux marais */
     #blogs{
@@ -681,7 +1163,66 @@ height: 100%;
 .card-body{
     background-color: #265034;
 }
+ /* Responsive pour les tablettes */
+ @media (max-width: 992px) {
+    .animaux-m {
+        padding: 20px; 
+    }
+    #blogs .heading-3 {
+        font-size: 25px; 
+    }
+}
 
+/* Responsive pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+   
+    .heading-3  h2{
+        text-align: center;
+    }
+    #blogs .heading-3 {
+        font-size: 20px; 
+    }
+
+    #blogs .container {
+        margin-top: 40px;
+        padding-top: 50px; /* Espacement réduit */
+    }
+    
+}
+/* Responsive pour les très petits écrans (petits smartphones) */
+@media (max-width: 480px) {
+    .animaux-m {
+        padding: 10px;
+    }
+
+    #blogs .heading-2 {
+        font-size: 18px; /* Réduction de la taille de police pour les très petits écrans */
+    }
+
+    .blogs-btn {
+        width: 150px;
+        font-size: 14px;
+        height: 26px; 
+    }
+
+    #blogs h5 {
+        font-size: 14px; 
+    }
+}
+
+    @media screen and (max-width: 982px){
+        #about .p{
+            font-size: 8px;
+        }
+    }
+    @media screen and (max-width: 766px){
+        #about .p{
+            font-size: 10px;
+        }
+        #about{
+            height: 120vh;
+        }
+    }
  /* end page marais */
 
  /* start savane-about */
@@ -711,7 +1252,15 @@ height: 100%;
         align-items: center;
         justify-content: center;
     }
-}
+}/* Responsive pour les tablettes */
+@media (max-width: 992px) {
+    .heading-savane p{
+        font-size: 12px;
+    }
+    .heading-savane .row {
+     width: 80%;
+     margin: auto;
+    }}
 /* end section home savane */
 .animaux-s{
     color: #fff;
@@ -756,7 +1305,7 @@ height: 100%;
         }
     }
     /* end section about*/
-    /* section animaux marais */
+    /* section animaux savane */
     #blogs{
         width: 100%;
         padding-left: 60px;
@@ -791,9 +1340,9 @@ height: 100%;
     background-color: #265034;
 }
 
- /* end page marais */
+ /* end page savane */
 
-/* start savane-about */
+/* start service-about */
 .service-about{
     position: relative;
     &::before{
@@ -847,18 +1396,30 @@ height: 100%;
     #restau .card img{
         border-radius: 15px;
     }
-    
-    @media screen and (max-width: 982px){
-        #restau .p{
-            font-size: 8px;
+    @media screen and (max-width: 982px) {
+        #restau p {
+            font-size: 12px;
+        }
+        #restau h2{
+            font-size: 16;
         }
     }
+    
     @media screen and (max-width: 766px){
         #restau .p{
             font-size: 10px;
+        } 
+        #restau .heading-resto .col-md-6 h6{
+            font-size: 13;
+            margin-top: 10px;
+            color: #fff;
         }
-        #restau{
-            height: 120vh;
+        #restau {
+            height: auto; /* Ajuste automatiquement la hauteur */
+        }
+        #restau .card{
+            width: 70%;
+            margin: auto;
         }
     }
     /* end section restau*/
@@ -900,7 +1461,7 @@ height: 100%;
          }
         @media screen and (max-width: 982px){
             #train .p{
-                font-size: 8px;
+                font-size: 10px;
                
             }
         }
@@ -908,10 +1469,23 @@ height: 100%;
             #train .p{
                 font-size: 10px;
             }
-            #train{
-                height: 120vh;
+          
+            #train p {
+                font-size: 12px;
+            }
+            #train {
+                height: auto;
+            }
+            #train .heading-train .col-md-6 h6{
+                font-size: 13;
+                margin-top: 10px;
+                color: #fff;
+                text-align: center;
             }
         }
+       
+        
+       
 /* and section train */
 
 /* section guide gratuit */
@@ -949,7 +1523,7 @@ height: 100%;
      }
     @media screen and (max-width: 982px){
         #guide .p{
-            font-size: 8px;
+            font-size: 10px;
            
         }
     }
@@ -957,48 +1531,22 @@ height: 100%;
         #guide .p{
             font-size: 10px;
         }
-        #guide{
-            height: 120vh;
-        }
+            #guide p {
+                font-size: 12px;
+            }
+            #guide {
+                height: auto;
+            }
+            #guide .heading-guide .col-md-6 h6{
+                font-size: 10;
+                margin-top: 10px;
+                color: #fff;
+                text-align: center;
+            }
+       
     }
     /* end section guide gratuit*/
 
-    /* la page sevices voire tout les animaux  */
-    .service-aboutf1{
-        position: relative;
-        &::before{
-            content:"";
-            position: absolute;
-            top:0;
-            left:0;
-            width:100%;
-            height:100%;
-            background-image: url(../images/bufle.jpg);
-            background-size: cover;
-            filter: brightness(0.5);
-        }
-    
-        *{
-           
-            position:relative;
-        }
-    
-        .service-aboutf1-content{
-            height: 500px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-    .servicef1-btn{
-        border-radius: 8px;
-        background-color: #ff9408;
-        height: 40px;
-        width: 150px;
-    }
-
-    
     /* end section home services */
 
     /* start section description animaux*/
@@ -1044,6 +1592,83 @@ height: 100%;
     color: #ff9408;
     margin-top: 20px;
   }
+  /* start section les animaux une par une */
+
+/* Responsive pour tablettes */
+@media screen and (max-width: 992px) {
+    .description-about-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .decrire h3 {
+        font-size: 1.5rem;
+    }
+
+    .decrire p {
+        font-size: 0.9rem;
+    }
+
+    .primary-bg .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .primary-bg img {
+       width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+/* Responsive pour mobiles */
+@media screen and (max-width: 576px) {
+    .description-about-content h1 {
+        font-size: 2rem;
+    }
+    .row  .col-lg-8 img{
+       margin-left: 30px;
+       height: 80%;
+    }
+    .decrire h3 {
+        font-size: 1.3rem;
+    }
+
+    .decrire p {
+        font-size: 0.85rem;
+        padding: 0 10px;
+    }
+ 
+    .icon-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .col-lg-4{
+        padding-top: 100px;
+        width: 80%;
+        margin: auto;
+    }
+     
+
+    .icon-list .text-wrap {
+        margin-left: 0;
+    }
+
+    .attraction.features {
+        padding: 15px;
+    }
+
+    .primary-bg .container {
+        padding: 0 10px;
+    }
+
+    .voirleanimaux-btn {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
 /* start section description animaux bec-en-sabot */
 
 .description-about-bec-en-sabot{
@@ -1369,13 +1994,34 @@ height: 100%;
         align-items: center;
         justify-content: center;
     }
-}
+}/* button voir les animaux sur les pages animaux */
 .voirleanimaux-btn {
     background-color: #ff9408;
     color: #fff;
      border-radius: 7px;
      height: 40px;
     margin-left: 400px;
+}@media screen and (max-width: 982px) {
+    .voirleanimaux-btn {
+       margin-left: 200px; 
+        font-size: 14px; 
+        height: 35px; 
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .voirleanimaux-btn {
+        margin-left: 15px; 
+        display: block;
+        width: 50%; 
+        height: 40px;
+        text-align: center; 
+        font-size: 14px;
+        margin-top: 60px;
+
+    }.voirleanimaux-btn a{
+        text-decoration: none;
+    }
 }
 
 /* start section description animaux rainette de wihle*/
@@ -2306,7 +2952,6 @@ color: #fff;
     margin: 20px;
     text-decoration: none;
     font-size: 1.3rem;
-    opacity: 0.7;
     transition: 0.5s;
 }
 .footernav ul li a:hover{
@@ -2326,6 +2971,35 @@ color: #fff;
     letter-spacing: 1px;
     font-weight: 400px;
     margin: px 5px;
+}
+@media (min-width: 430px) and (max-width: 599px) {
+    .footer{
+        margin-top: 170px;
+        background-color: #265034;
+        box-sizing: border-box;
+        width: 90vh;
+    }
+    .footernav ul li a{
+        color: #fff;
+        margin: 20px;
+       text-align: center;
+       margin-right: 50px;
+    }
+    .footer .container {
+        width: 90vh;
+        padding: 70px 30px 20px;
+    }
+    .footerBottom p{
+        
+        text-align: center;
+        }
+    
+    .socialicon{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-right: 20px;
+    }
 }
 @media (max-width: 700px){
     .footernav ul{

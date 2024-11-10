@@ -46,26 +46,7 @@
                     <span><i class="fa-solid fa-list-check" title="Services"></i></span>
                     <a href="/backend/sevices-bdd.php/servicebdd.php"><span class="label-item">Services</span> </a>
                 </li>
-                <!-- rapport habitat -->
-                <li class="nav-item dropdown">
-                <i class="fa-solid fa-user-nurse" title="Rapport vétérinaire"></i>
-              <a class="nav-link dropdown-toggle" href="veterinaire-aliment-anim.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Rapport vétérinaire
-              </a>
-                 <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../backend/admin/rapport_table_animaux.php"></a>Rapport Animaux</li>
-          </ul>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../backend/veterinaire/table-comptes-rendu.php"></a>Rapport Habitat</li>
-          </ul>
-        </li>
-                 <!-- fin rapport habitat -->
-                 <li class="sidebar-list-item">
-                    <span><i class="fa-solid fa-user-nurse" title="Rapport vétérinaire"></i></span>
-                    <a href="../backend/admin/rapport_table_animaux.php"><span class="label-item">Rapport vétérinaire</span> </a>
-                
-                    <span class="label-item"></span> 
-                </li>
+            
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-calendar-days" title="Réglage"></i></span>
                     <a href="../backend/les-horaire-du-zoo/zoo-horaire.php"><span class="label-item">Hohaire du zoo</span> </a>
@@ -79,7 +60,20 @@
                     <span><i class="fa-solid fa-message" title="Avis de visiteurs"></i></span>
                     <a href="/backend/avis-avis/avis.php"><span class="label-item">Avis de visiteurs</span> </a>
                 </li>
+                <!-- start lien double -->
+        <li class="sidebar-list-item">
+                    <div class="dropdown">
+  <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-solid fa-user-nurse"title="Rapport vétérinaire" ></i>
+  Rapport vétérinaire
+  </a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/backend/admin/rapport_table_animaux.php">Rapport animaux</a></li>
+    <li><a class="dropdown-item" href="/backend/admin/table-rapport-habitat.php">Rapport habitat</a></li>
+  </ul>
+</div>
+                 <!-- fin rapport habitat -->
             </ul>
         </aside>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

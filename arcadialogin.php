@@ -1,3 +1,20 @@
+<?php
+// Démarre la session
+session_start();
+
+// Vérifie si la déconnexion est demandée
+if (isset($_GET['logout']) && $_GET['logout'] == '1') {
+    // Détruit toutes les variables de session
+    session_unset();
+
+    // Détruit la session
+    session_destroy();
+
+    // Message de déconnexion réussie
+    $message = "Déconnexion réussie.";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +34,14 @@
     ?>
 </header>
 
-<body >
+<body>
+
+<?php
+    // Affiche le message de déconnexion réussie si défini
+    if (isset($message)) {
+        echo "<p>$message</p>";
+    }
+    ?>
     <div class="login-body">
 <section class="login-section">
     

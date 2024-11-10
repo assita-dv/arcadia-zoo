@@ -40,7 +40,7 @@
             </div>
             </div>
             <div class="col-md-6" >
-         <h2>ARCADIA RESTAURANT </h2>
+         <h6>ARCADIA RESTAURANT </h6>
         <p> arcadia restaurant
 Ouvert toute l’année, venez profiter d’une pause déjeuner décontractante dans notre cafétéria ou sur ses terrasses.
 Menu adulte à partir de 15€20 Menu enfant à 8€90
@@ -61,7 +61,7 @@ Service chaud entre 11h45 et 15h. Accès privilégié pour les personnes à mobi
             </div>
             </div>
                  <div class="col-md-6" >
-            <h2> Visite du zoo en petit train.</h2>
+            <h6> Visite du zoo en petit train.</h6>
            <p> Visite d'habitat au bord d'un petit train. Nous avons mis en place des petits trains safari pour que vous puissiez profiter 
              pleinement de votre visite, tout aussi divertissante.</p>
   </div>
@@ -79,7 +79,7 @@ Service chaud entre 11h45 et 15h. Accès privilégié pour les personnes à mobi
             </div>
         </div>
         <div class="col-md-6">
-    <h3>Visite Des Habitat Accompagné D'un Guide Gratuit</h3>
+    <h6>Visite Des Habitat Accompagné D'un Guide Gratuit</h6>
        <p> Profiter de votre visite accompagné des nos guide et sa gratuitement Le Zoo de La arcadia écrit actuellement l’une des pages les plus passionnantes et les plus stimulantes de son histoire. 
        </p>
         </div>
@@ -92,14 +92,7 @@ Service chaud entre 11h45 et 15h. Accès privilégié pour les personnes à mobi
 <!-- end about-->
  </section>
 
-<!-- debut home section fin -->
-<section class="home-service-f1" id="servicef">
-     <div class="service-aboutf1 text-center text-white">
-    <div class="service-aboutf1-content">
-        <h1>Zoo Arcadia</h1>
-        <a href="lesAnimaux.php"><button class="servicef1-btn">voir les animaux</button></a>
-    </div>
-</div>
+
      </section>
 <!-- end section home-->
 <script src="/script.javascript/script.js"></script>

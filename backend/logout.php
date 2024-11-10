@@ -10,7 +10,7 @@ session_unset();
 session_destroy();
 
 // Redirige vers la page de connexion avec un message de déconnexion
-header("Location: http://localhost/ARCADIA-ZOO/backend/login.php?message=deconnexionReussie");
-
+header("Location: http://localhost/ARCADIA-ZOO/backend/loginbdd.php?message=deconnexionReussie");
 exit;
 ?>
+

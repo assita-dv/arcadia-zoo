@@ -17,7 +17,7 @@ body {
 .header {
   background-color: #2c3e50;
   color: #ecf0f1;
- /* */padding: 10px;
+ padding: 10px;
   text-align: center;
   border-radius: 500px;
   width: 500px; 
@@ -36,7 +36,7 @@ body {
   height: calc(100vh - 100px);
   padding: 20px;
 }
-
+/* section accueil veterinaire */
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -107,12 +107,7 @@ body {
  .collapse{
       margin-left: 250px;
  }
- .navbar-nav i{
-    margin-left:  280px;
-    font-size: 25px;
-    color: #fff;
-    margin-top: 30px;
- }
+ 
 .body_comt_habitat{
      background-image: url(/images/flamarose.jpg);
      background-size: cover;
@@ -274,3 +269,22 @@ th , td {
       color: #fff;
       font-size: 25px;
     }
+
+    /* deconnexion span */
+    .deconnexion-span a{
+      vertical-align: middle;
+      text-decoration: none;
+      line-height: 2px;
+      padding: 8px;
+      font-size: 20px;
+      color: aliceblue; 
+      left: 50px;
+    }
+    /* icon deconnexion */
+    .navbar-nav i{
+    margin-left:250px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 40px;
+ }
+    /* fin deconnexion span */

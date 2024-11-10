@@ -39,7 +39,6 @@
         </div>
 <div class="col-lg-4">
     <div class="card attraction features">
-        <!-- stylr background color: ; -->
          <div class="content">
             <div class="icon-list">
                 <ul>

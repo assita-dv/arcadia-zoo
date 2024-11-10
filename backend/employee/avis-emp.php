@@ -15,7 +15,7 @@ $result = mysqli_query($conn, $sql);
     <title>Gestion des Avis</title>
     <link rel="stylesheet" href="/backend/css/dashboard.css">
 </head>
-<body>
+<body class="body-avis-emp">
     <!-- section header -->
 <?php 
 require "header-dashboard.php";
@@ -45,9 +45,9 @@ require "header-dashboard.php";
                         <td>
                             <!-- Boutons pour valider/invalider -->
                             <?php if ($row['isVisible']) { ?>
-                                <a href="action-avis-emp.php?id=<?= $row['avis_id'] ?>&action=invalider">Invalider</a>
+                                <a href="action-avis-emp.php?id=<?= $row['avis_id'] ?>&action=invalider" style="text-decoration:none; color:black; ">Invalider</a>
                             <?php } else { ?>
-                                <a href="action-avis-emp.php?id=<?= $row['avis_id'] ?>&action=valider">Valider</a>
+                                <a href="action-avis-emp.php?id=<?= $row['avis_id'] ?>&action=valider" style="text-decoration:none; color:black;">Valider</a>
                             <?php } ?>
                         </td>
                         <td>
