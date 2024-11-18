@@ -550,6 +550,10 @@ body{
     align-content: center;
     text-align: center;
 }
+.service .card:hover::after{
+    width: 225%;
+    top: -100%;
+}
 
 /* Texte des avis */
 .service .card p {
@@ -562,26 +566,26 @@ body{
 /* Bouton pour laisser un avis*/
 .btn-avis {
     display: inline-block;
+    width: 11%;
     padding: 12px 24px;
-    background-color: #3e5342;
+    background-color: #b55b00;
     color: #fff;
     border: none;
     border-radius: 8px;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 690px;
 }
-
- 
-.service .card:hover::after{
-    width: 225%;
-    top: -100%;
+.btn-avis a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .btn-avis:hover {
-    background-color: #ff9408;
+    background-color: #265034;
     transform: translateY(-3px);
 } 
 
@@ -608,8 +612,10 @@ body{
         font-size: 0.9rem; 
     }
     .btn-avis {
-        padding: 10px 20px; /* Réduit le padding du bouton */
-        font-size: 1rem; /* Diminue la taille de la police du bouton */
+        padding: 10px 20px; 
+        font-size: 1rem;
+        margin: auto;
+       align-items: center;
     }
 }
 
@@ -709,7 +715,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     margin: auto; /* Centre le formulaire */
-    margin-top: 110px;
+    margin-top: 180px;
 }
 
 .contact-form h2 {
@@ -742,7 +748,7 @@ body{
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background-color: #f39a34;
+    background-color: #b55b00;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -754,7 +760,7 @@ body{
 }
 
 .contact-form button:hover {
-    background-color: #d48229;
+    background-color: #265034;
 }
 
 /* Responsive pour les petits écrans */
@@ -2906,6 +2912,55 @@ color: #fff;
     border: 2px solid rgba(255, 255, 255, 0.2);
     color: #fff;
 }
+/* start section login responsive */
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .login-section {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .login-h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .input-box input {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .login-btn {
+        width: 100%;
+        height: 45px;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .login-section {
+        width: 70%;
+        padding: 15px;
+    }
+
+    .login-h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .remenber-forgot {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .login-btn {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+/* end section login */
 /* end section login*/
 
 /* start section footer*/
@@ -3015,8 +3070,9 @@ color: #fff;
 
 /*section avis visiteur */
 .avis-form {
-    width: 400px;
+    width: 500px;
     display: flex;
+    margin: auto;
     flex-direction: column;
     background-color: #fff;
     padding: 30px;
@@ -3032,18 +3088,10 @@ color: #fff;
     outline: 0;
    
 }
-.form-group{
-    height: 100px;
-    width: 300px;
-    background-color: #b55b00;
-    padding-left: 50px;
-    
-}
+
 .avis-form input{
    cursor: pointer;
-    color: #fff;
-    border: 1px solid #6F7BD9;
-
+   
 }
 .back {
   padding: 15px;
@@ -3052,26 +3100,69 @@ color: #fff;
   margin-top: 8px;
 }
 .avis-body {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin-top: 115px;
-   /**/ min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+    min-height: 100vh;
     width: 100%;
-   
+  
+}
+.avis-body h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 25px;
 }
 form input[type="submit"]{
     cursor: pointer;
      background-color:#b55b00 ;
-     color: #fff;
-     border: 1px solid #6F7BD9;
+     
+     
  
  }
- .back {
-   padding: 15px;
-   text-align: center;
-   border-radius: 3px;
-   margin-top: 8px;
+ .submit-avis{
+    background-color: #b55b00;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 10px;
  }
- 
+ /* start section avis responsive */
+ /* Responsive styles */
+@media screen and (max-width: 768px) {
+    .avis-form {
+        width: 80%;
+        padding: 20px;
+        font-size: 13px;
+        margin-top: 65px;
+    }
+
+    .avis-body h1 {
+        font-size: 22px;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .submit-avis {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .avis-form {
+        width: 70%;
+        padding: 15px;
+        font-size: 12px;
+        margin-top: 80px;
+    }
+
+    .avis-body h1 {
+        font-size: 20px;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .submit-avis {
+        font-size: 13px;
+        padding: 12px;
+    }
+}

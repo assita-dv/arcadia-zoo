@@ -57,7 +57,7 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historique d'Alimentation</title>
-    <link rel="stylesheet" href="../css/veterinaire.css">
+   <!-- <link rel="stylesheet" href="../css/veterinaire.css">-->
 </head>
 <body class="body-veteri-aliment">
 
@@ -66,7 +66,7 @@ $conn->close();
     <?php include "../veterinaire/header_veterinaire.php"; ?>
 </header>
 
-<main class="main_container">
+<main class="main-container-aliment">
     <form action="" method="get">
         <label for="animal_id">Sélectionner un animal :</label>
         <select name="animal_id" id="animal_id" required>

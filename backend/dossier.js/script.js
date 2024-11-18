@@ -1,22 +1,27 @@
+document.addEventListener("DOMContentLoaded", function() {
+  // votre code ApexCharts ici
+});
+
 const menuIcon = document.querySelector('.menu-icon');
-const sedebar = document.querySelector('#sedebar');
+const sidebar = document.querySelector('#sidebar'); 
 const header = document.querySelector('.header');
 
 menuIcon.addEventListener('click', toggleSidebar);
 
-function toggleSidebar(){
- if (sidebar.classList.contains('sidebar-responsive')){
-    sidebar.classList.remove('sidebar-responsive');
-    menuIcon.querySelector('span').innerText = 'keyboard_double_arrow_right';
-    header.classList.remove('header-responsive');
- } else{
-    sidebar.classList.add('sidebar-responsive')
-    menuIcon.querySelector('span').innerText = 'menu';
-    header.classList.add('header-responsive');
- }
-
- 
+function toggleSidebar() {
+    if (sidebar.classList.contains('sidebar-responsive')) {
+        sidebar.classList.remove('sidebar-responsive');
+        menuIcon.querySelector('span').innerText = 'keyboard_double_arrow_right';
+        header.classList.remove('header-responsive');
+    } else {
+        sidebar.classList.add('sidebar-responsive');
+        menuIcon.querySelector('span').innerText = 'menu';
+        header.classList.add('header-responsive');
+    }
 }
+
+/* test */
+
 let options = {
     series: [{
     data: [400, 430, 448, 470, 540 , 580, 690, 1100, 1200, 1380]
@@ -59,7 +64,7 @@ let options = {
   let chartBar = new ApexCharts(document.querySelector("#chart-bar"), options);
   chartBar.render();
 
-  // le charst area
+  /* le charst area*/
   
       
   let mixdOptions = {
@@ -83,6 +88,7 @@ let options = {
         show: false,
     }
   },
+   Colors: ['#608202','#1c0284', '#bc1e51', '#eba91d' ],
   stroke: {
     width: [0, 2, 3],
     curve: 'smooth'
@@ -113,7 +119,7 @@ let options = {
  
   yaxis: {
     title: {
-      text: 'Quantite',
+      text: 'quantite',
     }
   },
   tooltip: {
@@ -125,3 +131,4 @@ let options = {
 
   let chartMixed = new ApexCharts(document.querySelector("#chart-area"), mixdOptions);
   chartMixed.render();
+ 

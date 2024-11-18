@@ -1,6 +1,7 @@
+
 <?php
 if (isset($_GET['message']) && $_GET['message'] == 'success') {
-    echo "<p>Merci pour votre avis ! Il sera visible après validation par nos équipes.</p>";
+    echo "<p style='color: white;'>Merci pour votre avis ! Il sera visible après validation par nos équipes.</p>";
 }
 ?>
 
@@ -32,7 +33,7 @@ if (isset($_GET['message']) && $_GET['message'] == 'success') {
         <input type="text" name="pseudo" id="pseudo" required placeholder="Entrez votre pseudo" required>
         <label for="commentaire">Commentaire:</label>
         <textarea name="commentaire" id="commentaire" rows="4" required placeholder="Votre avis..."></textarea>
-        <button type="submit">Soumettre</button>
+        <button type="submit" class="submit-avis">Soumettre</button>
     </form>
 
 

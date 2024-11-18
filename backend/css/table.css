@@ -123,8 +123,133 @@ form input[type="submit"]{
   border-radius: 3px;
   margin-top: 8px;
 }
+  
+/* responsive de table et form*/
+/* Responsive: table sur petits écrans */
+@media (max-width: 768px) {
+  /* Activer le défilement horizontal sur petits écrans*/ 
+  table {
+     margin: auto;
+  }
+  .main-aliment table{
+    width: 100%;
+    position: relative;
+   top: 40px; right: 30px; 
+   }
+   table {
+     margin: auto;
+     width: 60%;
+  }
+  /* Colonnes plus compactes pour petits écrans */
+  th, td {
+      padding: 10px;
+      font-size: 12px;
+  }
+
+  /* Supprimer certaines bordures pour alléger visuellement */
+  table tr {
+      border-bottom: 1px solid #ddd;
+  }
 
 
+/* Style des messages et du formulaire */
+.message {
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 5px 0;
+  color: #fff;
+}
+
+form {
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input {
+  margin: 6px 0;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  outline: 0;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+  background-color: #b55b00;
+  color: #fff;
+  border: 1px solid #6F7BD9;
+}
+
+.back {
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+  /* Colonnes plus compactes pour petits écrans */
+  th, td {
+      padding: 10px;
+      font-size: 12px;
+  }
+
+  /* Supprimer certaines bordures pour alléger visuellement */
+  table tr {
+      border-bottom: 1px solid #ddd;
+  }
+
+
+/* Style des messages et du formulaire */
+.message {
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 5px 0;
+  color: #fff;
+}
+
+form {
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input {
+  margin: 6px 0;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  outline: 0;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+  background-color: #b55b00;
+  color: #fff;
+  border: 1px solid #6F7BD9;
+}
+
+.back {
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+}
+/* end responsive table et form */
   
   @media screen and (max-width: 600px) {
    
@@ -134,23 +259,20 @@ form input[type="submit"]{
         flex-direction: column;
         padding: 20px;
         width: 100%;
-        ;
+        
     }
     table {
         box-shadow: 0 0 0px rgba(0,0,0,0.2);
-        width: 100%;
+        width: 80%;
         border-radius: 0;
-     
-      
+     margin-left: 20px;
     }
   
     table caption {
       font-size: 1.3em;
     }
     
-    table thead {
-     display: none;
-    }
+    
     
     table tr {
     
@@ -163,14 +285,10 @@ form input[type="submit"]{
       border-bottom: 1px solid #ddd;
       display: block;
       font-size: .8em;
-        border: 1px solid blue;
-        
+        border: 1px solid rgb(158, 231, 236);
+  
     }
     table td::before {
-      /*
-      * aria-label has no advantage, it won't be read inside a table
-      content: attr(aria-label);
-      */
       content: attr(data-label);
       /* float: left; */
       font-weight: bold;
@@ -188,6 +306,7 @@ form input[type="submit"]{
         text-align: unset;
        }
   }
+  /*fin section responsive */
 
 .link {
   margin: 20px 0;
@@ -214,15 +333,45 @@ form input[type="submit"]{
 }
 /* fin table avis */
 
-.main-aliment table{
- width: 140vh;
-/* right: 200px;*/
- position: relative;
-top: 40px; right: 300px; 
-}
 
 
 .body_alimentation{
  
   background-color: rgb(19, 79, 34);
+}
+/* Centrer le conteneur */
+.table-container {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  width: 100%;
+}
+
+/* Styles pour la table alimentation animaux dans le tableaux de bord admin*/
+.table-alimentation {
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    border-collapse: collapse;
+    width:auto;
+    table-layout: fixed;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    margin-left: 120px;
+
+}
+/* satrt le responsive de la table animaux */
+.table-Rapport2 {
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    border-collapse: collapse;
+    width:auto;
+    table-layout: fixed;
+    border-radius: 10px;
+    overflow: hidden;
+  margin: auto;
+}
+/* Centrer le conteneur */
+.table-rapport2-container {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  width: auto;
+  right: 250px;
 }

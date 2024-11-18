@@ -19,20 +19,78 @@
     font-size: 24px;
     transition: 0.3s color;
 }
+.navbar-nav .navbar-toggler{
+  border:none ;
+  font-size: 1.25rem;
+  
+ }
+ .navbar-toggler:focus, .btn-close:focus{
+   box-shadow:none;
+   outline: none;
+ }
+ .nav-link:hover, .nav-link.active{
+   color: #b55b00;
+ }
 .navbar-nav .nav-link{
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  }
+   .nav-link  i{
     color: #fff;
-    padding: 25px;
-    margin: 10px;
-    text-align: center;
-   left: 45px;
-   position: relative;
+     padding-right: 10px;
+  }
 
+ /* Styles de base pour la navbar */
+ .navbar {
+  
+  padding: 1rem;
 }
-.icon-left i{
-   margin-left:  750px;
-    font-size: 25px;
-    color: #fff;
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
+
+.navbar-toggler {
+  display: flex;
+}
+@media (min-width: 991px){
+  .nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+  }
+  .nav-link{
+    color: #000;
+  }
+  .nav-link:hover::before , .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+    
+  }
+  
+   }/*Responsive: table sur petits écrans */
+  @media (max-width: 768px) {
+    .navbar-nav .nav-link{
+      color: #000;
+      }
+  }
+  @media (min-width: 375px){
+    .navbar{
+      content: "";
+      position: absolute;
+      bottom: 0;
+     
+    }
+  }
+  /* start section accueil vétérinaire */
+
 /* start accueil employe */
 .body-employe-accueil{
   font-family: Arial, sans-serif;
@@ -53,15 +111,6 @@
   align-items: center;
   text-align: center;
   max-width: 700px;
-}
-.header-employe {
-  background-color: #2c3e50;
-  color: #ecf0f1;
- padding: 10px;
-  text-align: center;
-  border-radius: 500px;
-  width: 500px; 
-  margin-top: 60px;
 }
 
 .header-employe h3 {
@@ -87,6 +136,15 @@
   font-size: 1.1em;
 }
  
+   /*Responsive: table sur petits écrans acceuil employée */
+   @media (max-width: 768px) {
+    /* start accueil employe */
+ .body-employe-accueil{
+  margin-top: 60px;
+}
+  }
+  
+  
 /* end section accueil employe */
 .body-employe{
     background-image: url(/images/lionn.jpg);
@@ -237,3 +295,109 @@ th , td {
   background-size: cover;
  }
  /* end table alimentation body */
+.table-avis{
+ margin-inline-end: 80px;
+  padding-inline-end: 80px;
+}
+/* Responsive: table sur petits écrans */
+@media (max-width: 768px) {
+  /* Activer le défilement horizontal sur petits écrans*/ 
+  table {
+     margin: auto;
+  }
+  .main-aliment table{
+    width: 100%;
+    position: relative;
+   top: 40px; right: 30px; 
+   }
+   table {
+     margin: auto;
+     width: 60%;
+  }
+  /* Colonnes plus compactes pour petits écrans */
+  th, td {
+      padding: 10px;
+      font-size: 12px;
+  }
+
+  /* Supprimer certaines bordures pour alléger visuellement */
+  table tr {
+      border-bottom: 1px solid #ddd;
+  }
+
+
+/* Style des messages et du formulaire */
+.message {
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 5px 0;
+  color: #fff;
+}
+/* Colonnes plus compactes pour petits écrans */
+th, td {
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* Supprimer certaines bordures pour alléger visuellement */
+table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  ;
+}
+table {
+  box-shadow: 0 0 0px rgba(0,0,0,0.2);
+  width: 80%;
+  border-radius: 0;
+margin-left: 20px;
+}
+
+table caption {
+font-size: 1.3em;
+}
+
+
+
+table tr {
+
+display: block;
+margin-bottom: 10px;
+border-radius: 6px;
+}
+
+table td {
+border-bottom: 1px solid #ddd;
+display: block;
+font-size: .8em;
+  border: 1px solid rgb(158, 231, 236);
+
+}
+table td::before {
+content: attr(data-label);
+/* float: left; */
+font-weight: bold;
+text-transform: uppercase;
+}
+
+table td:last-child {
+border-bottom: 0;
+}
+th , td {
+  text-align: unset;
+  padding: 15px;
+ }
+ .image{
+  text-align: unset;
+ }
+}
+/*fin section responsive */
+

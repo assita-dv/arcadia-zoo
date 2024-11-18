@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
-<body>
+<body style="background-color: #265034;">
     
 <aside id="sidebar">
 <div class="sidebar-title">
@@ -60,18 +60,15 @@
                     <span><i class="fa-solid fa-message" title="Avis de visiteurs"></i></span>
                     <a href="/backend/avis-avis/avis.php"><span class="label-item">Avis de visiteurs</span> </a>
                 </li>
-                <!-- start lien double -->
-        <li class="sidebar-list-item">
-                    <div class="dropdown">
-  <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-solid fa-user-nurse"title="Rapport vétérinaire" ></i>
-  Rapport vétérinaire
-  </a>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="/backend/admin/rapport_table_animaux.php">Rapport animaux</a></li>
-    <li><a class="dropdown-item" href="/backend/admin/table-rapport-habitat.php">Rapport habitat</a></li>
-  </ul>
-</div>
-                 <!-- fin rapport habitat -->
+                <li class="sidebar-list-item">
+                    <span><i class="fa-solid fa-user-nurse"title="Rapport vétérinaire" ></i></span>
+                    <a href="/backend/admin/rapport_table_animaux.php"><span class="label-item">Rapport animaux vetérinaire</span> </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <span> <i class="fa-solid fa-user-nurse"title="Rapport vétérinaire" ></i></span>
+                    <a href="/backend/admin/table-rapport-habitat.php"><span class="label-item"> Rapport habitat vetérinaire</span> </a>
+                </li>
+            </ul> <!-- fin rapport habitat -->
             </ul>
         </aside>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

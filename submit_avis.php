@@ -31,3 +31,20 @@ if (isset($_POST['pseudo']) && isset($_POST['commentaire'])) {
 
 $conn->close();
 ?>
+<?php
+// Exemple de traitement dans submit_avis.php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $pseudo = $_POST['pseudo'];
+    $commentaire = $_POST['commentaire'];
+
+    // Code pour enregistrer l'avis dans la base de données
+    // ...
+
+    // Après l'enregistrement, redirige vers la page de l'avis avec un message de succès
+    header("Location: avis-visiteur.php?message=success");
+    exit(); // S'assure que le script s'arrête ici
+} else {
+    // Si la méthode n'est pas POST, renvoie vers la page d'accueil ou affiche un message d'erreur
+    header("Location: index.php");
+    exit();
+}

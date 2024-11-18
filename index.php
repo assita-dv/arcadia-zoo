@@ -268,7 +268,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
    </section>
+   <a href="avis-visiteur.php"><button type="button" class="btn btn-avis">Laissez un avis</a></button>
   <!-- end section avis -->
  
    <!-- end section review -->

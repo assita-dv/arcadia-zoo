@@ -134,11 +134,64 @@
    gap: 20px;
    margin: 20px 0;
  }
+ /* Sidebar cachée par défaut sur mobile */
+.sidebar-responsive {
+  display: block; /* Montre la sidebar quand elle est active */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: var(--darkly);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+
  .sidebar-list-item a {
    list-style-type: none;
    text-decoration: none;
    color: var(--lightly);
- }
+ }/* Sidebar par défaut, masquée en mode mobile */
+ 
+/* Affichage de la sidebar en mode responsive */
+.sidebar-responsive {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px; 
+  height: 100%;
+  background-color: var(--darkly); 
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  overflow-y: auto; 
+}
+.card-inner a{
+  text-decoration: none;
+}
+/* Style pour les éléments de la sidebar en mode mobile */
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar-list-item {
+  padding: 15px;
+  color: var(--lightly);
+  text-align: left;
+}
+
+.sidebar-list-item a {
+  color: var(--lightly); /* Couleur des liens */
+  text-decoration: none;
+}
+
+.sidebar-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Effet survol */
+}
+
  .card {
    display: flex;
    flex-direction: column;
@@ -170,6 +223,105 @@
  .card-inner > span{
    font-size: 30px;
  }
+ /* start section responsive */
+ /* Responsive styles */
+@media screen and (max-width: 1024px) {
+  /* Adapte la largeur de la grille pour des écrans plus petits */
+  .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+      grid-template-areas: 
+          "header"
+          "main";
+  }
+
+  /* Ajuste le header en pleine largeur */
+  .header {
+      width: 100%;
+      left: 0;
+      padding: 0 20px;
+  }
+
+  /* Cache la sidebar sur les écrans de taille moyenne et petite */
+  #sidebar {
+    display: block;
+ }
+
+  /* Ajoute un bouton pour afficher/cacher la sidebar */
+  .menu-icon {
+      display: block;
+      font-size: 20px;
+      cursor: pointer;
+      color: rgb(86, 37, 8);
+  }
+  
+  /* Positionne le contenu principal en pleine largeur */
+  .main-container {
+      width: 100%;
+      left: 0;
+      padding: 20px;
+      margin-top: 70px;
+      position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adapte la grille principale pour une seule colonne */
+  .main-cards {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  /* Réduit la taille des cartes pour plus d'espace */
+  .card {
+      padding: 16px;
+  }
+  
+  .card-inner > p {
+      font-size: 16px;
+  }
+  
+  .card-inner > span {
+      font-size: 24px;
+  }/* ##### header ###### */
+ .header {
+
+  width: 95% ;
+
+}
+}
+
+@media screen and (max-width: 480px) {
+  /* Affiche les cartes en une seule colonne sur les petits écrans */
+  .main-cards {
+      grid-template-columns: 1fr;
+  }
+
+  /* Ajuste la taille de la police et l'espacement des éléments */
+  .login-h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+  }
+
+  .sidebar-title {
+      font-size: 18px;
+  }
+  
+  .card-inner > p, 
+  .card-inner > span {
+      font-size: 14px;
+  }
+
+  .fw-600 {
+      font-size: 18px;
+  }
+
+  /* Ajuste le padding de l'élément principal */
+  .main-container {
+      padding: 15px;
+  }
+}
+
+ /* end responsive */
  .card:nth-child(1){
    border-left: 7px solid #eba91d;
  }
@@ -237,7 +389,10 @@
       display: inline;
    }
    .sidebar-brand > .label-title{
-      display: none;
+      display: block;
+   }
+   .body{
+    background-color: var(--greenly);
    }
    .sidebar-list{
       text-align: center;
@@ -247,7 +402,7 @@
    }
    .sidebar-list-item > :not(.label-item), 
    .sidebar-brand > :not(.label-title){
-      font-size: 36px;
+      font-size: 16px;
    }
  }
  /* * MD MW < 768PX */
@@ -257,18 +412,26 @@
       grid-template-columns:  1fr;
       grid-template-columns: 'header' ' main';
    }
+   .body{
+    background-color: var(--greenly);
+   }
    .main-cards{
       grid-template-columns: 1fr;
       gap: 10px;
       margin-bottom: 0;
+      width: 70%;
+      margin: auto;
    }
    .charts{
       grid-template-columns: 1fr;
-      margin-top: 30px;
+      width: 80%;
+      height: 70%;
+      margin: auto;
+      padding-top: 50px;
    }
    #sidebar{
       position: absolute;
-      width: 120px;
+      width: 50%;
       transform: translateX(-120px);
    }
    .menu-icon{
@@ -283,7 +446,7 @@
    .menu-icon:hover{
       background-color: rgba(0, 0, 0, 0.2);
       cursor: pointer;
-      color: white;
+     
    }
    .sidebar-responsive {
       display: block;
@@ -303,15 +466,18 @@
  @media screen and (max-width : 576px){
    
    #sidebar{
-      width: 70px;
+      width: 130px;
    }
    .charts-card *{
-      width: 70px;
+      width: 60px;
    }
    .sidebar-responsive + .main-container, .header-responsive{
       width: calc(100% - 70px) ;
       transform: translateX(70px);
       transition: 0.3s ease-in;
       overflow-x: hidden;
+   }
+   .body{
+    background-color: var(--greenly);
    }
  }

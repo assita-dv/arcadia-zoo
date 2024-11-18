@@ -25,7 +25,7 @@ require "../menu.php";
 <main class="main-aliment" style="padding-top: 170px; ">
    
     <div">
-    <table  class="table-alimentation " style="margin-top: 30px;">
+    <table  class="table-Rapport2 " style="margin-top: 30px;">
         <thead>
             <?php
             include_once "../connect_ddb.php";

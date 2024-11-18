@@ -21,7 +21,7 @@ $result = mysqli_query($conn, $sql);
 require "header-dashboard.php";
 ?> 
     <h1 class="avis-h1" style="padding-top: 150px;">Gestion des Avis</h1>
-    <table style="margin-top: 45px;">
+    <table class="table-avis" style="margin-top: 45px; ">
         <thead>
             <tr>
                 <th>Pseudo</th>
@@ -61,7 +61,7 @@ require "header-dashboard.php";
             }
             ?>
         </tbody>
-        <a class="link black" href="/backend/employee/services-db-emp.php" style="margin-left: 50px;">Annuler</a> 
+        <a class="link black" href="/backend/employee/accueil-employe.php" style="margin-left: 50px;">Annuler</a> 
     </table>
 </body>
 </html>

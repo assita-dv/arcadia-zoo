@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/bootstrap-table.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/bootstrap-table.min.css">
 </head>
-<body class="body_alimentation">
+<body class="body_alimentation" style="background-color: #265034;">
 <?php
 /*require header.php*/
 require "../header.php";
@@ -23,10 +23,11 @@ require "../header.php";
 require "../menu.php";
 ?>
 <main class="main-aliment" style="padding-top: 170px; ">
+
     <div class="link_container">
         <a class="link-MG" href="alimentation.php">Ajouter une consommation</a>
     </div>
-    <div">
+    <div class=".table-rapport2-container">
     <table  class="table-alimentation " style="margin-top: 30px;">
         <thead>
             <?php
@@ -63,7 +64,7 @@ require "../menu.php";
                 <a href="modifi-aliment.php?animal_id=<?=$row['animal_id']?>"><img src='../images/images/write.png' style="width: 35px;" alt='Modifier'></a>
             </td>
             <td>
-                <a href="deleteUser.php?id=<?=$row['animal_id']?>"><img src='../images/images/remove.png' style="width: 35px;" alt='Supprimer'></a>
+                <a href="aliment-delete.php?animal_id=<?=$row['animal_id']?>"><img src='../images/images/remove.png' style="width: 35px;" alt='Supprimer'></a>
             </td>
         </tr>
         <?php 
@@ -74,6 +75,7 @@ require "../menu.php";
         ?>
         </tbody>
     </table>
+    </div>
      </div>
 </main>
 </body>
