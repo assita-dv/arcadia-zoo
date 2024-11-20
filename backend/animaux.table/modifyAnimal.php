@@ -1,15 +1,15 @@
 
 <?php
-// Inclure la connexion à la base de données
+
 include_once "../connect_ddb.php";
 
 // Vérifier si un animal spécifique a été passé via l'URL
 if (isset($_GET['animal_id'])) {
-    $animal_id = filter_var($_GET['animal_id'], FILTER_SANITIZE_NUMBER_INT); // Utilise $animal_id ici
+    $animal_id = filter_var($_GET['animal_id'], FILTER_SANITIZE_NUMBER_INT);
 
     // Requête pour récupérer les informations de l'animal
     $sql = $conn->prepare("SELECT * FROM animals WHERE animal_id = ?");
-    $sql->bind_param("i", $animal_id); // Utilise $animal_id ici
+    $sql->bind_param("i", $animal_id); 
     $sql->execute();
     $result = $sql->get_result();
 
@@ -34,7 +34,7 @@ if (isset($_POST['send'])) {
 
     // Requête pour mettre à jour l'animal
     $update_sql = $conn->prepare("UPDATE animals SET animal_id = ?, prenom = ?, race_id = ?, habitat_id = ? WHERE animal_id = ?");
-    $update_sql->bind_param("issii", $new_animal_id, $prenom, $race_id, $habitat_id, $animal_id); // Utilise $animal_id pour l'ID actuel
+    $update_sql->bind_param("issii", $new_animal_id, $prenom, $race_id, $habitat_id, $animal_id); 
 
     // Exécuter la requête et vérifier si la mise à jour a réussi
     if ($update_sql->execute()) {

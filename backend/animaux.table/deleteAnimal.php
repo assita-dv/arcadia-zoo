@@ -3,7 +3,6 @@
 // Récupérer l'ID de l'animal à supprimer depuis l'URL
 $animal_id = $_GET['id'];  // Correctement utiliser $animal_id au lieu de $role_id
 
-// Inclure la connexion à la base de données
 include_once "../connect_ddb.php";
 
 // Créer la requête SQL pour supprimer l'animal

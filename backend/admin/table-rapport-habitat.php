@@ -41,8 +41,7 @@ require "../menu.php";
                 <th>Vétérinaire Id</th>
                  <th>Date_habitat</th>
                  <th>Commentaire</th>
-                <!-- <th>Modifier</th>
-                 <th>Supprimer</th>-->
+               
             </tr>
         </thead>
 

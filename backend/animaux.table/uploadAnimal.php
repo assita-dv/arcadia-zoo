@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
     // Vérification si les champs 'prenom', 'race_id', 'habitat_id' sont définis et non vides
     if (!empty($_POST['prenom']) && !empty($_POST['race_id']) && !empty($_POST['habitat_id']) && isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
 
-        // Connexion à la base de données
+      
         include_once "../connect_ddb.php";
 
         // Sécuriser les données en échappant les caractères spéciaux
@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
         // Gestion du fichier image
         $image = $_FILES['image']['tmp_name'];
         $image_name = basename($_FILES['image']['name']);
-        $image_destination = "../uploads/" . $image_name; // Dossier de destination
+        $image_destination = "../uploads/" . $image_name; 
 
         // Vérifiez si le fichier n'est pas vide et est bien une image
         if (!empty($image) && getimagesize($image) !== false) {

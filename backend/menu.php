@@ -28,7 +28,7 @@
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-chart-line" title="classification"></i></span>
-                    <span class="label-item">classification</span> 
+                    <a href="/backend/admin/consultations_animaux.php"><span class="label-item">Consultations</span> </a>
                 </li>
                 <li class="sidebar-list-item">
                     <span><i class="fa-solid fa-users-gear" title="Les employée"></i></span>

@@ -375,3 +375,24 @@ form input[type="submit"] {
   width: auto;
   right: 250px;
 }
+/* start section consultations animaux */
+.consultations{
+  width: 70%;
+  margin: auto;
+  
+}
+.consultations table{
+  margin-top: 120px;
+}
+
+.consultations_présentation_p{
+  margin: auto;
+
+}
+.consultations .consultations_présentation_p p{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 70px;
+}

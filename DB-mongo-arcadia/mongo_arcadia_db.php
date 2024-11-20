@@ -1,20 +1,33 @@
+<!-- section mongo_arcadia_db.php -->
 <?php
-require '../vendor/autoload.php'; // Charge le package MongoDB
 
+require '../vendor/autoload.php'; // Charger l'autoloader de Composer
+require_once __DIR__ . '/../backend/admin/AnimalManager.php'; // Charger la classe AnimalManager
+
+//use App\AnimalManager;
 use MongoDB\Client;
 
-// Connexion à MongoDB
+// Instancier AnimalManager
+$manager = new AnimalManager();
+
+// Tester la connexion MongoDB
 $client = new Client("mongodb://localhost:27017");
-$collection = $client->zoho_arcadia->animals; // Base et collection
+$collection = $client->zoho_arcadia->animals;
+$test = $collection->findOne();
+echo "Connexion réussie : " . json_encode($test) . "<br>";
 
-// Récupérer le nom de l'animal depuis la requête
-$animalName = $_POST['name']; // Par exemple, "Médor"
+// Appeler incrementConsultation
+$animalId = '673c599e14eb123fce08f542'; // Exemple d'ID d'animal
+if ($manager->incrementConsultation($animalId)) {
+    echo "Consultation mise à jour avec succès.<br>";
+} else {
+    echo "Impossible de mettre à jour la consultation.<br>";
+}
 
-// Incrémenter le compteur de consultations
-$result = $collection->updateOne(
-    ['name' => $animalName], 
-    ['$inc' => ['consultations' => 1]],
-    ['upsert' => true]
-);
+// Récupérer et afficher tous les animaux avec consultations
+$animals = $manager->getAllAnimalsWithConsultations();
+foreach ($animals as $animal) {
+    echo "Nom : " . $animal['name'] . " | Consultations : " . $animal['consultations'] . "<br>";
+}
 
-echo json_encode(["message" => "Consultation mise à jour", "result" => $result]);
+?>
