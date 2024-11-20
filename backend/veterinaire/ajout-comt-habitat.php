@@ -1,7 +1,7 @@
 <?php
 session_start(); // Vérifier que l'utilisateur est bien connecté (employé)
 
-// Inclure la connexion à la base de données
+
 include_once "../connect_ddb.php";
 
 // Vérifier si le formulaire a été soumis

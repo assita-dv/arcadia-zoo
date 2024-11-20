@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horaires du Zoo Arcadia</title>
-    <link rel="stylesheet" href="../css/table.css"> <!-- Ton fichier CSS -->
+    <link rel="stylesheet" href="../css/table.css"> 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/tableA.css">
 
@@ -36,8 +36,8 @@ require "../menu.php";
                 </thead>
                 <tbody>
                     <?php
-                    // Inclure la connexion à la base de données
-                    include_once "../connect_ddb.php";  // Chemin correct vers ton fichier de connexion
+                    
+                    include_once "../connect_ddb.php"; 
 
                     // Requête pour récupérer tous les horaires
                     $sql = "SELECT * FROM horaire";

@@ -1,5 +1,5 @@
 <?php
-// Inclure la connexion à la base de données
+
 include_once "../connect_ddb.php";
 
 // Vérifier si un service spécifique a été passé via l'URL
@@ -8,7 +8,7 @@ if (isset($_GET['service_id'])) {
 
     // Requête pour récupérer les informations du service
     $sql = $conn->prepare("SELECT * FROM services WHERE service_id = ?");
-    $sql->bind_param("i", $service);  // Utiliser 'i' si service_id est un entier
+    $sql->bind_param("i", $service);  
     $sql->execute();
     $result = $sql->get_result();
 
@@ -31,7 +31,7 @@ if (isset($_POST['send'])) {
     $description = filter_var($_POST['description_servces'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     // Requête pour mettre à jour le service
     $update_sql = $conn->prepare("UPDATE services SET service_id = ?, nom = ?, description_servces = ? WHERE service_id = ?");
-    $update_sql->bind_param("issi", $new_service, $nom, $description, $service);  // 'i' pour un entier, 's' pour string
+    $update_sql->bind_param("issi", $new_service, $nom, $description, $service); 
 
     // Exécuter la requête et vérifier si la mise à jour a réussi
     if ($update_sql->execute()) {

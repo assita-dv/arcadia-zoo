@@ -31,8 +31,8 @@ if (isset($_POST['send'])) {
     // Récupérer les données du formulaire
     $new_rapport_veterinaire_id = filter_var($_POST['rapport_veterinaire_id'], FILTER_SANITIZE_NUMBER_INT);
     $date_rapport = filter_var($_POST['date_rapport'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-    $detail = filter_var($_POST['detail'], FILTER_SANITIZE_FULL_SPECIAL_CHARS); // Corrigé pour accepter du texte
-    $username = filter_var($_POST['username'], FILTER_SANITIZE_EMAIL); // Corrigé si ce n'est pas un email
+    $detail = filter_var($_POST['detail'], FILTER_SANITIZE_FULL_SPECIAL_CHARS); 
+    $username = filter_var($_POST['username'], FILTER_SANITIZE_EMAIL); 
     $animal_id = filter_var($_POST['animal_id'], FILTER_SANITIZE_NUMBER_INT);
 
     // Requête pour mettre à jour les informations

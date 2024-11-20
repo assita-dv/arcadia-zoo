@@ -5,11 +5,6 @@ session_start(); // Vérifie que l'utilisateur est bien connecté
 // Inclure la connexion à la base de données
 include_once "../connect_ddb.php";
 
-/*Vérifier si l'utilisateur est bien connecté et que la session `employe_id` est définie
-if (!isset($_SESSION['employe_id'])) {
-    echo "Erreur : L'utilisateur doit être connecté pour ajouter une alimentation.";
-    exit();
-}*/
 
 // Vérifier si le formulaire a été soumis
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -19,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $quantite = filter_var($_POST['quantite'], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
     $date = filter_var($_POST['date'], FILTER_SANITIZE_SPECIAL_CHARS);
     $heure = filter_var($_POST['heure'], FILTER_SANITIZE_SPECIAL_CHARS);
-    $employe_id = filter_var($_POST['employe_id'],FILTER_SANITIZE_EMAIL ); // Utiliser l'ID de l'employé connecté
+    $employe_id = filter_var($_POST['employe_id'],FILTER_SANITIZE_EMAIL ); 
 
     // Préparer la requête SQL d'insertion
     $sql = "INSERT INTO alimentation (animal_id, employe_id, nourriture, quantite, date, heure) 

@@ -1,5 +1,5 @@
 <?php
-// Inclure la connexion à la base de données
+
 include_once "../connect_ddb.php";
 
 // Vérifier si un jour de la semaine a été passé via l'URL

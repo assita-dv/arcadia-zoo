@@ -31,7 +31,7 @@ if (isset($_POST['send'])) {
     $description = filter_var($_POST['description_servces'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     // Requête pour mettre à jour le service
     $update_sql = $conn->prepare("UPDATE services SET service_id = ?, nom = ?, description_servces = ? WHERE service_id = ?");
-    $update_sql->bind_param("issi", $new_service, $nom, $description, $service);  // 'i' pour un entier, 's' pour string
+    $update_sql->bind_param("issi", $new_service, $nom, $description, $service); 
 
     // Exécuter la requête et vérifier si la mise à jour a réussi
     if ($update_sql->execute()) {

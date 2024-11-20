@@ -4,7 +4,7 @@ if (isset($_GET['animal_id'])) {
     // Récupérer et filtrer l'ID du service à supprimer
     $animal_id = filter_var($_GET['animal_id'], FILTER_SANITIZE_NUMBER_INT);
     
-    // Inclure la connexion à la base de données
+    
     include_once "../connect_ddb.php";
     
     // Créer une requête SQL préparée pour supprimer le service

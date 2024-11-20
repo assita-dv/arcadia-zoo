@@ -1,7 +1,6 @@
 
-
 <?php
-// Inclure la connexion à la base de données
+
 include_once "connect_ddb.php";
 
 // Vérifier si le formulaire est soumis
@@ -19,7 +18,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Récupérer les informations de l'utilisateur
         $row = mysqli_fetch_assoc($result);
 
-        // Comparer le mot de passe directement si c'est en clair (uniquement pour les tests)
         if ($password == $row['password']) {
             // Connexion réussie
 

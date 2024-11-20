@@ -42,12 +42,9 @@ if (isset($_POST['send'])) {
     $update_sql->close();
 }
 
-// Ne fermez la connexion qu'à la fin du script
+
 $conn->close();
 ?>
-
-<!-- Le reste de votre code HTML pour l'affichage de la page -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -77,7 +74,7 @@ require "header-dashboard.php";
         <tr>
             <th>Service_id</th>
             <th>Nom</th>
-            <th>Description_services</th> <!-- Correction ici -->
+            <th>Description_services</th> 
             <th>Modifier</th>
             <th>Supprimer</th>
         </tr>
@@ -90,7 +87,7 @@ require "header-dashboard.php";
     <tr>
         <td><?= htmlspecialchars($row['service_id']) ?></td>
         <td><?= htmlspecialchars($row['nom']) ?></td>
-        <td><?= htmlspecialchars($row['description_servces']) ?></td> <!-- Correction ici -->
+        <td><?= htmlspecialchars($row['description_servces']) ?></td> 
         <td>
             <a href="modifie-services.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/write.png' style="width: 35px;" alt='Modifier'></a>
         </td>

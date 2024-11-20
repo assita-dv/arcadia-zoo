@@ -1,10 +1,10 @@
 <?php
-// Vérifier si un service_id a été passé dans l'URL
+
 if (isset($_GET['commentaire_id'])) {
     // Récupérer et filtrer l'ID du service à supprimer
     $commentaire_id = filter_var($_GET['commentaire_id'], FILTER_SANITIZE_NUMBER_INT);
     
-    // Inclure la connexion à la base de données
+    
     include_once __DIR__ . "/../connect_ddb.php";
 
     // Créer une requête SQL préparée pour supprimer le service

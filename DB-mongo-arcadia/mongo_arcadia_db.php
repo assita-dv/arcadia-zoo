@@ -17,7 +17,7 @@ $test = $collection->findOne();
 echo "Connexion réussie : " . json_encode($test) . "<br>";
 
 // Appeler incrementConsultation
-$animalId = '673c599e14eb123fce08f542'; // Exemple d'ID d'animal
+$animalId = '673c599e14eb123fce08f542'; 
 if ($manager->incrementConsultation($animalId)) {
     echo "Consultation mise à jour avec succès.<br>";
 } else {

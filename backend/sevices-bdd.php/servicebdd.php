@@ -33,7 +33,7 @@
         <tr>
             <th>Service_id</th>
             <th>Nom</th>
-            <th>Description_services</th> <!-- Correction ici -->
+            <th>Description_services</th>
             <th>Modifier</th>
             <th>Supprimer</th>
         </tr>
@@ -46,7 +46,7 @@
     <tr>
         <td><?= htmlspecialchars($row['service_id']) ?></td>
         <td><?= htmlspecialchars($row['nom']) ?></td>
-        <td><?= htmlspecialchars($row['description_servces']) ?></td> <!-- Correction ici -->
+        <td><?= htmlspecialchars($row['description_servces']) ?></td>
         <td>
             <a href="modifiservice.php?service_id=<?= htmlspecialchars($row['service_id']) ?>"><img src='../images/images/write.png' style="width: 35px;" alt='Modifier'></a>
         </td>

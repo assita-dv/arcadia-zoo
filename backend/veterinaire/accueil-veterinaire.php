@@ -14,7 +14,7 @@
     
     <main class="main-content">
         <section class="welcome-section">
-            <!--<img src="/images/veterinaire-bienvenu.jpg" alt="Image de bienvenue" class="welcome-image">-->
+            
             <div class="welcome-text">
                 <h2>Bonjour et bienvenue !</h2>
                 <p>

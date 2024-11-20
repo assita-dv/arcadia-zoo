@@ -1,16 +1,8 @@
 
-<!--- ------------------->
-
-
-
-
-
-
-
 
 
 <?php
-// Inclure la connexion à la base de données
+
 include_once "../connect_ddb.php";
 
 // Vérifier si le formulaire a été soumis
@@ -44,7 +36,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter un Compte Rendu</title>
-    <!--<link rel="stylesheet" href="/backend/css/dashboard.css">-->
     <link rel="stylesheet" href="../css/veterinaire.css">
 </head>
 <body class="body-compterendus">

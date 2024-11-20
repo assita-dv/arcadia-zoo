@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/backend/css/dashboard.css">
-    <!-- <link rel="stylesheet" href="../css/tableA.css">-->
+    
 </head>
 <body class="body-alimentation-emp">
 

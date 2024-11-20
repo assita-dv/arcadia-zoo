@@ -1,6 +1,6 @@
 
 <?php
-// Inclure la connexion à la base de données
+
 include_once "../connect_ddb.php";
 
 // Initialiser une variable pour stocker les résultats HTML
@@ -57,7 +57,6 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historique d'Alimentation</title>
-   <!-- <link rel="stylesheet" href="../css/veterinaire.css">-->
 </head>
 <body class="body-veteri-aliment">
 
