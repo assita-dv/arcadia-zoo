@@ -12,7 +12,7 @@ Le projet Arcadia Zoo est une application web
 
 Étapes déjà accomplies
 1. Développement 
-Création du site web avec HTML , CSS , *JavaScript et PHP le frameork bootstrap .
+Création du site web avec HTML , CSS , *JavaScript et PHP le framework bootstrap .
 Mise en place de fonctionnalités interactives telles que :
 Consultation d'animaux
 
